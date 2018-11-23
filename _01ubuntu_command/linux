@@ -1,0 +1,110 @@
+一.查看文件
+ls:查看目录及文件
+ls -a:查看隐藏目录及文件，即所有的文件
+ls /bin:查看根目录下的bin文件夹下的文件
+cd music:进入到music目录下
+ls music:查看music目录下的文件
+ls -l:查看文件以列表的形式呈现
+ls -h:查看文件以列表及文件大小的形式呈现
+ls -alh:查看所有的文件以列表的文件显示并显示文件大小
+ll:查看所有的文件以列表的文件显示
+ls 2*：查看所有的以2开头的文件
+ls 2?3.txt：查看只有3个文字的以2开头以3结尾的所有文件
+ls 2[1-5]3.txt：查看只有3个文字的以2开头以3结尾并且中间那个数在1到5的文件
+cd /home/python/按两下tab键：查看Python下的所有文件
+cd ./A:进入当前目录下的A文件夹
+cd ..:返回上一级目录
+cd ../..:返回上两级目录
+cd /:根目录
+cd -:上一次的历史目录
+cd ~:家目录
+sodu find ./ -name "*name*":查找bin目录下的包含name的文件名（sodu获取权限）
+find ./ -name "[a-z]*":查找当前目录下的以小写字母开头的文件名
+sodu find ./ -size +2G:查看超过2G的文件
+
+
+二.新建文件
+touch yyy.txt：新建一个yyy.txt的文件
+mkdir yyy:新建一个yyy文件夹
+rm yyy.txt:删除yyy文件
+mkdir a/b/c/d/e -p:新建e文件夹
+rmdir b:删除空的b文件夹
+rmdir b -r :递归删除b文件夹所有文件
+mv yyy.txt xxx.txt:将yyy.txt重命名为xxx.txt
+ln -s yyy.txt xxx.txt:将yyy.txt生成一个快捷方式yyy.txt（软连接,删除原文件名就找不到了）
+ln yyy.txt xxx.txt:将yyy.txt生成一个快捷方式yyy.txt（硬连接，删除原文件名依然能找到，是因为文件名和文件内容分开存储着）
+mv yyy.txt /a/b/c:将yyy.txt剪切到c目录下
+cp yyy.txt /a：将yyy.txt复制到a目录下
+cp b /a -r：将b目录复制到a目录下
+
+
+三.查看文件内容
+cat yyy.txt：查看yyy.txt文件（一次性加载所有内容）
+more yyy.txt:以百分百的进度显示文件内容
+ls -alh /bin | more:将bin目录下的屏幕显示内容存到|(俗称管道)里面，然后以百分百形式显示
+cat yyy.txt xxx.txt >> zzz.txt:将yyy.txt和xxx.txt的内容合并到zzz.txt里面去
+grep -n "ntfs" xxx.txt:搜索包含ntfs的内容
+grep -v "ntfs" xxx.txt:搜索不包含ntfs的内容
+grep -n "^ntfs" xxx.txt:搜索以ntfs开头的内容
+grep -n "ntfs$" xxx.txt:搜索以ntfs结尾的内容
+
+四.编辑文件
+gedit yyy.txt：编辑yyy.txt文件内容
+
+五.重定向
+ls -alh > xxx.txt：将ls -alh在屏幕上的结果编辑到xxx.txt里面去（覆盖）
+ls -alh >> xxx.txt：将ls -alh在屏幕上的结果编辑到xxx.txt里面去（追加到后面）
+
+六.权限
+chmod u=rwx 1.py:修改拥有者对1.py的读写执行权限
+chmod g=rwx 1.py:修改同组者对1.py的读写执行权限
+chmod o=rwx 1.py:修改其他者对1.py的读写执行权限
+chmod 137 1.py:修改拥有者为执行权限，同组者为写与执行权限，其他者为读权限（r=4,w=2,x=1）
+
+七.其他
+clear：清空编辑框显示
+history:查看历史命令
+!34:执行第34次的历史命令
+pwd:查看当前目录路径
+Ctrl+c:不执行命令
+tree:以树的形式显示文件
+tar -cvf yyy.tar *.py:将所有的.py文件打包成yyy.tar
+tar -xvf yyy.tar:解压yyy.tar文件
+tar -zcvf yyy.tar.gz *.py:将所有的.py文件压缩成yyy.tar.gz包
+tar -zxvf yyy.tar.gz:解压缩包yyy.tar.gz文件
+tar -jcvf yyy.tar.bz2 *.py:将所有的.py文件压缩成yyy.tar.bz2包
+tar -jxvf yyy.tar.bz2:解压缩包yyy.tar.bz2文件
+zip zzz.tar *.py:压缩（不常用，因为压缩得不够）
+unzip zzz.tar:解压
+tar -zxvf yyy.tar.gz -C /a:解压缩包yyy.tar.gz文件到a目录下
+which ls:查看ls命令的目录在哪
+cal -y 2009:查看2009年的日历
+date：查看当前时间
+date "+%Y年%m月%d日" :格式化时间
+ps -aux:查看进程
+htop:查看进程
+kill -9 9822:强制杀掉进程pid9822
+reboot:重启电脑
+shutdown -h now:立刻关机
+shutdown -h +30:30分钟后关机
+shutdown -h 08:20：八点20关机
+df -h:查看硬盘使用情况
+du -h:查看当前文件夹占用多大
+ifconfig:查看ip信息
+ping 192.169.1.102:测试是否连接成功
+sudo useradd shuaige -m:添加帅哥账户
+su shuaige:切换到shuaige的账户
+su - shuaige:切换到shuaige的账户的家目录
+sudo passwd shuaige:设置账户密码
+who:当前登录的账户
+whoami:输入当前账户
+exit:退出当前账户
+ssh gangmiss@192.168.6.129:远程这个电脑
+sudo passwd gangmiss:修改密码
+sudo userdel gangmiss:删除账户
+sudo -s:切换到超级管理员root账户
+sudo usermod -a -G sudo xxxx:将xxxx组加入到sudo组里面，让他享有sudo的权限
+sudo usermod -a -G adm xxxx:将xxxx组加入到sudo组里面，让他享有sudo的权限
+groupadd yyy:新建yyy组
+chgrp yyy 1.py:将1.py改到yyy分组里面，享有yyy组的权限
+chown yyy 1.py:将1.py的拥有者改成自己
