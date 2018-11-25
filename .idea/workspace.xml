@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d63f6deb-fc14-414e-aca1-8bd65fefb0e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06数据库/_01ubuntu系统下的Mysql安装.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06数据库/_02mysql命令.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_05数据结构与算法/_02排序算法.py" beforeDir="false" afterPath="$PROJECT_DIR$/_05数据结构与算法/_02排序算法.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -120,20 +123,43 @@
     <session id="-484648534">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="8" />
-          <entry key="txt" value="11" />
+          <entry key="dummy" value="27" />
+          <entry key="py" value="2278" />
+          <entry key="txt" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="11" />
-          <entry key="Python" value="8" />
+          <entry key="PLAIN_TEXT" value="42" />
+          <entry key="Python" value="2278" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.merge" value="1" />
+          <entry key="git.branch.rebase" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="linux" value="1" />
+          <entry key="py" value="2" />
+          <entry key="vi_command" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -143,26 +169,62 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_05数据结构与算法/_01单链表的实现.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="240">
               <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
               <folding>
-                <marker date="1542251725063" expanded="true" signature="144:149" ph="..." />
-                <marker date="1542251725063" expanded="true" signature="250:255" ph="..." />
-                <marker date="1542251725063" expanded="true" signature="1583:1816" ph="..." />
+                <marker date="1542945066219" expanded="true" signature="144:149" ph="..." />
+                <marker date="1542945066219" expanded="true" signature="250:255" ph="..." />
+                <marker date="1542945066219" expanded="true" signature="1583:1816" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_05数据结构与算法/_02排序算法.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3456">
+              <caret line="144" column="26" selection-start-line="144" selection-start-column="26" selection-end-line="144" selection-end-column="26" />
+              <folding>
+                <marker date="1542961542976" expanded="true" signature="91:95" ph="..." />
+                <marker date="1542961542976" expanded="true" signature="2810:3231" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_05数据结构与算法/_02排序算法.py">
+        <entry file="file://$PROJECT_DIR$/_06数据库/_01ubuntu系统下的Mysql安装.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="88" column="37" lean-forward="true" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
-              <folding>
-                <marker date="1542942369325" expanded="true" signature="91:95" ph="..." />
-                <marker date="1542942369325" expanded="true" signature="2810:3111" ph="..." />
-              </folding>
+            <state relative-caret-position="384">
+              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_06数据库/_02mysql命令.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_01ubuntu_command/linux">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_01ubuntu_command/vi_command">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="40" column="6" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -170,7 +232,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_02python_basicknowledge/_01basic_variable.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="3960">
               <caret line="165" column="12" selection-start-line="165" selection-start-column="8" selection-end-line="165" selection-end-column="12" />
             </state>
           </provider>
@@ -197,10 +259,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_02python_basicknowledge/_01basic_variable.py" />
-        <option value="$PROJECT_DIR$/../pygame/com.gangmiss.game/plane/_create_mygame_window.py" />
-        <option value="$PROJECT_DIR$/_02python_basicknowledge/_24等号与is的区别.py" />
-        <option value="$PROJECT_DIR$/_02python_basicknowledge/_25深拷贝和浅拷贝.py" />
         <option value="$PROJECT_DIR$/_02python_basicknowledge/_26源码，反码，补码.py" />
         <option value="$PROJECT_DIR$/_02python_basicknowledge/_18packege/sendmsg.py" />
         <option value="$PROJECT_DIR$/_02python_basicknowledge/_27property.py" />
@@ -248,6 +306,10 @@
         <option value="$PROJECT_DIR$/_05数据结构与算法/_01顺序表.py" />
         <option value="$PROJECT_DIR$/_05数据结构与算法/_01单链表的实现.py" />
         <option value="$PROJECT_DIR$/_05数据结构与算法/_02排序算法.py" />
+        <option value="$PROJECT_DIR$/_06数据库/Mysql.py" />
+        <option value="$PROJECT_DIR$/_06数据库/_02mysql命令.py" />
+        <option value="$PROJECT_DIR$/_06数据库/_02mysql命令.txt" />
+        <option value="$PROJECT_DIR$/_06数据库/_01ubuntu系统下的Mysql安装.txt" />
       </list>
     </option>
   </component>
@@ -258,18 +320,19 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="141" />
-    <option name="width" value="1063" />
+    <option name="x" value="140" />
+    <option name="width" value="1065" />
     <option name="height" value="1100" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -280,13 +343,17 @@
             <path>
               <item name="my_python" type="b2602c69:ProjectViewProjectNode" />
               <item name="my_python" type="462c0819:PsiDirectoryNode" />
-              <item name="_05数据结构与算法" type="462c0819:PsiDirectoryNode" />
+              <item name="_01ubuntu_command" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_python" type="462c0819:PsiDirectoryNode" />
+              <item name="_06数据库" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -513,7 +580,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19504021" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20040214" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -526,7 +593,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32765958" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3286119" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -578,20 +645,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_03python高级编程/_03不定长参数闭包装饰器.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_02python_basicknowledge/_05函数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="75" column="25" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_02python_basicknowledge/_07匿名函数.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -697,9 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_01ubuntu_command/linux">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/_03python高级编程/_06_01多任务(多进程).py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -765,7 +815,7 @@
           <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-            <marker date="1541916981603" expanded="true" signature="156:163" ph="..." />
+            <marker date="1542945066205" expanded="true" signature="156:163" ph="..." />
           </folding>
         </state>
       </provider>
@@ -802,13 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="16" column="84" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_01ubuntu_command/vi_command">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="40" column="6" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -857,31 +900,59 @@
     <entry file="file://$PROJECT_DIR$/../MyStudyTest/com.gangmiss.test/_01测试slots.py" />
     <entry file="file://$PROJECT_DIR$/_05数据结构与算法/_01单链表的实现.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="240">
           <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
           <folding>
-            <marker date="1542251725063" expanded="true" signature="144:149" ph="..." />
-            <marker date="1542251725063" expanded="true" signature="250:255" ph="..." />
-            <marker date="1542251725063" expanded="true" signature="1583:1816" ph="..." />
+            <marker date="1542945066219" expanded="true" signature="144:149" ph="..." />
+            <marker date="1542945066219" expanded="true" signature="250:255" ph="..." />
+            <marker date="1542945066219" expanded="true" signature="1583:1816" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_05数据结构与算法/_02排序算法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3456">
+          <caret line="144" column="26" selection-start-line="144" selection-start-column="26" selection-end-line="144" selection-end-column="26" />
+          <folding>
+            <marker date="1542961542976" expanded="true" signature="91:95" ph="..." />
+            <marker date="1542961542976" expanded="true" signature="2810:3231" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_02python_basicknowledge/_01basic_variable.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="3960">
           <caret line="165" column="12" selection-start-line="165" selection-start-column="8" selection-end-line="165" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_05数据结构与算法/_02排序算法.py">
+    <entry file="file://$PROJECT_DIR$/_01ubuntu_command/vi_command">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="88" column="37" lean-forward="true" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
-          <folding>
-            <marker date="1542942369325" expanded="true" signature="91:95" ph="..." />
-            <marker date="1542942369325" expanded="true" signature="2810:3111" ph="..." />
-          </folding>
+        <state relative-caret-position="415">
+          <caret line="40" column="6" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_01ubuntu_command/linux">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_06数据库/_02mysql命令.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_06数据库/_01ubuntu系统下的Mysql安装.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
         </state>
       </provider>
     </entry>

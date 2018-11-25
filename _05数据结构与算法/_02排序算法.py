@@ -133,6 +133,14 @@ def binary_search(aList, item):
             return binary_search(aList[:mid], item)
     return False
 
+"""
+二叉树遍历：
+1.层次遍历：从上往下，从左往右  0123456789
+2.先序遍历：中 左 右  0137849256
+3.中序遍历：左 中 右  7381940526
+4.后序遍历：左 右 中  7839415620
+"""
+
 
 if __name__ == '__main__':
     a = [33, 2, 7, 55, 1, 24]
