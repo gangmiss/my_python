@@ -1,0 +1,81 @@
+NoSQL:全称Not Only SQL，非关系型数据库，提高相应速度，内存级的读写
+MongoDB:是一种基于分布式文件存储的非关系型NoSQL数据库
+
+show abs  查看数据库
+db.dropDatabase() 删除数据库
+db.createCollection(name,options)  新建集合（即表）
+show collections 查看所有集合
+
+objectID ： 文档(即一条数据)id,是一个12字节的十六进制数（前四个字节为当前时间戳，接下来3字节是机器id，接下来2字节是mongo的服务进程id，最后三个字节是增量值）
+String ：字符串，最常用
+Boolean: 存储一个布尔值
+Integer：整形
+Double：浮点型
+Arrays：数组
+Object：文档对象
+Timestamp：时间戳
+Date：当前日期或时间
+
+插入
+db.stu.insert({name:'xiaowang',age:18})  即使没有集合stu，也会自己创建一个，然后插入一条文档(python里面的字典)
+
+查询
+db.stu.find()  返回文档集合
+db.stu.findOne().pretty()  查看一条数据并且格式化
+db.stu.find({条件文档})  返回文档集合
+db.stu.find().explain('executionStats') 性能分析：查看查询时间
+db.stu.ensureIndex({'name':1}) 新建name索引升序排列
+db.stu.ensureIndex({'name':1},{'unique':true}) 新建name唯一约束索引升序排列
+db.stu.getIndexes() 查看stu集合的索引
+db.stu.dropIndexes('name')  删除stu集合的name索引
+
+更新
+db.集合名称.update(<query>,<update>,{multi:false})   文档结构会变化  三个参数都是字典：<query>是条件，相当于查询语句的where部分，<update>是更新结果，相当于update的set部分,后面是否多条修改的意思（默认只修改一条）
+db.集合名称.update(<query>,{$set:<update>},{multi:true})      只修改制定的字段值
+
+保存：
+db.集合名称.save(document)  如果文档id已经存在则修改，如果不存在则添加
+
+删除
+db.集合名称.remove({},{justOne:true})
+
+
+逻辑运算符：
+默认是等于，没有运算符
+小于 $lt（left than）
+小于或等于 $lte  （left than ecoch）
+不等于 $ne
+大于 $gt
+大于或等于 $gte
+
+默认是与运算
+db.stu.find({age:{$gte:18},gender:1}) 查找大于或等于18岁的男生
+
+或运算
+db.stu.find({$or:[{age:{$gte:18},gender:1}]}) 查找大于或等于18岁的学生或者是男生
+
+$and和$or一起使用：
+db.stu.find({$or:[{age:{$gte:18},gender:1}]},{name:'小王'})  查找大于或等于18的学生或者是男生 并且 姓名叫小王 的人
+
+范围运算符：$in $nin
+db.stu.find({age:{$in:[18,28]}}) 查找年龄是18和28的学生
+
+正则//或者$regex
+db.stu.find({name:/^王/})  查找姓王的学生
+db.stu.find({name:{$regex:'^王'}}).limit(2) 查找姓王的2名学生
+
+自定义查询：$where后面写一个函数，返回结果集
+db.stu.find({$where:function(){return this.age>20}}) 查询年龄大于20岁的学生
+
+limit skip
+db.stu.find({name:{$regex:'^王'}}).limit(2) 查找姓王的2名学生
+db.stu.find({name:{$regex:'^王'}}).skip(2) 查找跳过前面2名学生的其他学生
+
+投影映射
+db.stu.find({name:/^王/},{_id:0,name:1,age:1,gender:0}) 查找姓王的学生，输出字段包括_id不显示，姓名显示，年龄显示，性别不显示
+
+db.stu.find({}).sort({age:1,gender:-1}) 查找姓王的学生并且按年龄升序，性别降序排列
+
+db.stu.find({name:/^王/}).count() 或者 db.stu.count({name:/^王/})  求姓王学生的个数
+
+db.stu.distinct('gender',{age:{$gt:18}})  查询年龄大于18岁的一名男生和一名女生，意思就是对性别去重

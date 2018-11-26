@@ -1,0 +1,68 @@
+aggregate:聚合
+| 管道：前面的结果作为后面的输入
+'$属性字段' 使用字段
+
+常用管道有：
+$group
+$match
+$project
+$sort
+$limit
+$skip
+$unwind
+
+常用表达式：
+$sum
+$min
+$max
+$avg
+$push
+$first
+$last
+
+db.集合名称.aggregate([管道:{表达式}])
+
+1.$group：分组
+db.stu.aggregate([{$group:{_id:'$gender',counter:{$sum:1}}}])   求男生和女生的人数
+db.stu.aggregate([{$group:{_id:'$gender',counter:{$sum:'$age'}}}]) 按男女生分组，并对年龄进行求和（就是求男生的总年龄和女生的总年龄）
+db.stu.aggregate([{$group:{_id:'$gender',counter:{$avg:'$age'}}}]) 按男女生分组，并对年龄进行求平均值
+db.stu.aggregate([{$group:{_id:'$gender',counter:{$push:'$age'}}}]) 按男女生分组，并把年龄放在数组里
+db.stu.aggregate([{$group:{_id:'$gender',counter:{$push:'$$ROOT'}}}]) 按男女生分组，并把每条文档放在数组里
+group by null 放在一组里面
+db.stu.aggregate([{$group:{_id:null,counter:{$push:'$$ROOT'}}}]) 不分组，把每条文档放在数组里
+
+2.$match：统计过滤
+db.stu.aggregate([{$match:{age:{$gte:20}}}]) 查询年龄大于等于20岁的学生
+
+配合使用
+db.stu.aggregate([{$match:{age:{$gt:20}}},{$group:{_id:'$gender',counter:{$sum:1}}}]) 先查询大于20岁的学生，然后对这些学生按性别分组，求各自的人数（这就是管道思想，将第一次的结果集作为第二次的数据源）
+
+3.$project：投影(将结果拿出一部分进行显示)
+db.stu.aggregate([{$match:{age:{$gt:20}}},{$group:{_id:'$gender',counter:{$push:'$$ROOT'}}},{$project:{_id:1,name:1,age:-1,gender:1}}]) 查询年龄大于20对并按年龄分组，显示_id,name,gender字段信息
+
+4.$sort：排序（1升序，-1降序）
+db.stu.aggregate([{$match:{age:{$gt:20}}},{$group:{_id:'$gender',counter:{$push:'$$ROOT'}}},{$project:{_id:1,name:1,age:-1,gender:1}},{$sort:{_id:1}}])  查询年龄大于20对并按年龄分组，显示_id,name,gender字段信息，并且按_id升序排列
+
+5.$limit：限制数据个数
+db.stu.aggregate({$limit:2}) 只查两条数据
+
+6.$skip：跳过几条数据
+db.stu.aggregate({$skip:2}) 去掉前两条数据
+
+7.$unwind：拆分字段成数组类型
+db.stu.insert({_id:1,title:'T-shirt',size:['M','L','S']})
+db.stu.aggregate([{$unwind:'$size'}])
+
+db.stu.aggregate([{$unwind:{path:'$size',preserveNullAndEmptyArrays:true}}]) 不丢失size空的数据
+
+
+
+use admin  切换到超级管理员数据库admin
+db.createUser({
+user:'admin'
+pwd:'123'
+roles:[{role:'root',db:'admin'}]
+})
+
+mongo -u 用户名 -p 密码 --authenticationDatabase 数据库名
+

@@ -1,0 +1,4 @@
+安装mysql模块
+sudo apt-get install python-mysqldb
+
+python3没有MySQLdb了只有pymysql

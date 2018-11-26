@@ -1,0 +1,37 @@
+from pymongo import *
+
+'''连接远程数据库'''
+client=MongoClient('mongodb://localhost:27017')
+client=MongoClient('mongodb://用户名:密码@localhost:27017/数据库')
+
+"""获得数据库scholl"""
+db=client.scholl
+
+"""获得集合student"""
+stu=db.student
+
+"""类collection的常用方法
+insert_one
+insert_many
+update_one
+update_many
+delete_one
+remove
+delete_many
+find_one
+find
+"""
+
+"""添加"""
+stu.insert_one({'name':'张三丰'})
+
+"""修改"""
+stu.update_one({'name':'张三丰'},{'$set':{'name':'abc'}})
+
+"""删除"""
+stu.delete_one({'name':'abc'})
+
+"""查询   DESCENDING"""
+cursor=stu.find({'age':{'$gt':20}}).sort({'_id',ASCENDING}).skip(1).limit(10)
+for s in cursor:
+    print(s)

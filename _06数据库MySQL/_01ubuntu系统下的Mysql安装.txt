@@ -19,5 +19,4 @@ sudo service mysql status
 如果没有运行你可以
 sudo service mysql start
 运行它
-
-mysql -uroot -p 接下来会提示你输入密码，输入正确密码，即可进入
+mysql -uroot -pgangmiss 即可进入
