@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+        /*margin:盒子间的间距  padding：内容与边框的间距  border:边框的间距*/
+        /*盒子真实的尺寸计算：
+            盒子的宽度：width+左右padding值+左右border的值
+            盒子的高度：height+上下padding值+上下border的值
+        */
+        /*清除行内元素或行内块元素间距：父元素的font-size设为0，子元素再设置font-size*/
+        .box{
+            width: 200px;
+            height: 100px;
+
+            background-color: pink;
+
+            /*border-top-width: 20px;
+            border-top-color: blue;
+            border-top-style: dashed;!*实线：solid 虚线：dashed   点：dotted*!*/
+
+            /*border-top: 10px solid blue;
+            border-left: 10px dashed blue;
+            border-right: 10px dashed blue;
+            border-bottom: 10px dotted blue;*/
+            border: 10px solid blue;
+
+            padding: 10px 20px 10px 20px;/*上下左右*/
+            padding: 10px 20px 10px;/*上(左右)下*/
+            padding: 10px 20px;/*上下 左右*/
+            padding: 10px;/*上下左右*/
+
+            margin: 40px;
+            margin: auto;/*自适应剧中*/
+        }
+
+
+        /*margin-top塌陷：一个div嵌套一个div，内部div的margin-top并没有距离外部一定值，而是使得外部div距离了外部一个值了
+            解决办法：
+                1.外部div设置一个border
+                2.外部div设置overflow:hidden属性
+                3.使用伪元素方法                    (建议使用这种)
+        */
+        .clearfix:after,.clearfix:before{
+            content: "";
+            display: table;
+        }
+        .clearfix:after{
+            clear: both;
+        }
+        .clearfix{
+            zoom: 1;
+        }
+
+
+        /*CSS溢出：子元素尺寸超过父元素尺寸，需要设置父元素显示溢出的子元素的方式，设置的方式是通过overflow属性
+            overflow的设置项：
+                1.visible：默认值，溢出元素框外
+                2.hidden：溢出部分裁剪并不可见，可以消除margin-top塌陷
+                3.scroll:溢出部分会裁剪，但是浏览器会显示滚动条，以便查看其他部分
+                4.auto：如果内容被裁剪，则浏览器会显示滚动条，以便查看其他部分
+                5.inherit：规定应该从父元素继承overflow属性的值
+
+            浮动特性：
+            1.浮动元素有左浮动和右浮动两种
+            2.浮动元素会向左或向右浮动，碰到父元素边界、浮动元素、未浮动元素才会停下来
+            3.相邻浮动块元素会并在一行，超出父级宽度就换行
+            4.浮动元素让行内元素和块元素自动转化成行内块元素
+            5.浮动元素后面没有浮动的元素时，没有浮动的元素会占据浮动元素后面的位置，没有浮动元素内的文字会避开浮动元素，形成文字绕图的效果
+            6.如果父元素不给高度的话，父元素内整体浮动的元素无法撑开父元素，需要清除浮动
+            7.浮动元素之间没有垂直margin的合并
+
+
+            清除浮动：
+                1.父级元素内添加属性overflow：hidden
+                2.在最后一个浮动元素后面增加一个空的div，给它一个属性clear:both（增加了无谓的结果，不推荐）
+                3.使用成熟的清除浮动样式类：clearfix  通用型：清除margin-top塌陷和清除浮动
+                    .clearfix:after,.clearfix:before{content:'';display:table}
+                    .clearfix:after{clear:both;}
+                    .clearfix{zoom:1;}      为了兼容IE
+
+        */
+
+
+
+        /*元素位置：
+            1.relative：相对定位，原来的位置依然占有，但本身已经相对于父元素发生偏移，依然隶属于父元素
+            2.absolute：绝对定位，原来的位置不占有，本身相对于逐级往上查找持有相对属性或绝对属性或固定定位属性直到整个文档body的父元素后、发生了偏移，不隶属于父元素了
+            3.fixed：固定定位，如果不设置left或者top等定位属性，那么它依然在原来的位置，也不隶属于父元素，而一旦设置了定位属性，则是相对于整个文档即body而发生偏移
+
+            定位元素特性：
+                绝对定位或固定定位的块元素或内行元素会自动转化为行内块元素
+            定位元素层级：
+                定位元素是浮动的正常的文档流之上的，可以用z-index来设置元素层级
+            典型的定位元素应用
+                1.固定在顶部的菜单
+                2.水平垂直居中的弹框
+                3.固定左侧的工具栏
+                4.固定底部的按钮
+        */
+
+        .con{
+            position: relative;  /*如果子元素有定位属性，则一般将父元素设置为相对定位属性，作为子元素的基点*/
+            width: 300px;
+            border: 1px solid #000;
+            margin: 100px auto 0;
+        }
+        .con div{
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            background: gold;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .con .con1{
+            position: relative;
+            background: blue;
+            /*层级属性值越大，越靠上*/
+            z-index: 8;
+        }
+
+        .con .con2{
+            position: absolute;
+            background: red;
+            left: 20px;
+        }
+
+        .con .con3{
+            background: yellow;
+            position: fixed;
+            /*如果不设置left或者top等定位属性，那么它依然在原来的位置，也不隶属于父元素，一旦设置了定位属性，则是相对于整个文档即body而设置的*/
+            left: 20px;
+            top: 30px;
+        }
+
+
+        /*background属性：负责给盒子添加背景(一般用于美化装饰性形式性的图用background，而有特定意义的图用img标签)：
+            1.background-color:设置背景颜色
+            2.background-image:设置背景图片地址
+            3.background-repeat:设置背景图片如何重复平铺，默认repeat（repeat-x横向重复，repeat-y纵向重复，no-repeat不重复,是多大就是多大）
+            4.background-position:设置背景图片的位置，例如background-position:right center;  background-position:20px 10px  第一个参数横向，第二个参数纵向
+            5.background-attachment:设置背景图片是固定的还是随着页面滚动条滚动
+            6.background-size:调整背景图大小，backgroun-size:300px 500px 强制缩放背景图大小为300*500大小 backgroun-size:100% 100% 自适应盒子
+
+            实际应用中通常一起写：
+            background:#00ff00 url(地址) no-repeat left fixed
+        */
+
+        /*阴影
+            box-shadow:水平偏移，垂直偏移 羽化大小 扩展大小 颜色 是否内阴影
+        */
+
+        /*圆角
+            border: 2px solid #000;
+            border-radius: 50%;
+        */
+
+        /*透明度
+            元素透明：
+                opacity: 30%;
+                filter:alpha(opacity=50)   兼容IE
+            颜色透明：
+                color:rgba(255,214,0,0.3)
+        */
+
+        /*transition动画：
+            1.transition-property:设置动画属性，这三种属性哪个使用动画，如果使用多个，用分号隔开，比如width height background-color
+            2.transition-duration:设置过渡时间
+            3.transition-timing-function:设置过渡运动方式：
+                linear:匀速
+                ease:开始和结果慢速
+                ease-in:开始慢速
+                ease-out:结束慢速
+                ease-in-out:开始和结束时慢速
+                cubic-bezier(n,n,n,n):设置曲线
+            4.transition-delay:设置动画延迟
+
+            5.还可以一次性设置四个属性：
+                transition:property duration timing-function delay
+        */
+
+        /*transform变换
+            1.translate(x,y)：设置盒子位移
+            2.scale(x,y):设置盒子缩放
+            3.rotate(deg)：设置盒子旋转.例如：transform:rotate(30deg)  顺时针旋转30度
+            4.skew(x-angle,y-angle)：设置盒子倾斜
+            5.perspective:设置盒子透视距离,一般是800px
+            6.transform-style flat | preserve-3D:设置盒子是否按3D空间显示
+            7.translateX,translateY,translateZ:这只盒子三维移动
+            8.rotateX,rotateY,rotateZ:设置盒子三位旋转
+            9.scaleX,scaleY,scaleZ：设置盒子三位缩放
+            10.transform-origin:设置变形的中心点
+            11.backface-visibility:设置盒子背面是否可见
+        */
+
+        /*animation动画
+            1.@keyframes:定义关键帧动画
+            2.animation-name:动画名称
+            3.animation-duration:动画时长
+            4.transition-timing-function:设置过渡运动方式：
+                linear:匀速
+                ease:开始和结果慢速
+                ease-in:开始慢速
+                ease-out:结束慢速
+                ease-in-out:开始和结束时慢速
+                steps：动画步数
+            5.animation-delay:动画延迟
+            6.animation-iteration-count:动画播放次数 n|infinite
+            7.animation-direction:
+                normal:默认动画结束后不返回
+                alternate：动画结束后按原路返回
+            8.animation-play-state:动画状态
+                pause:停止
+                running:运动n
+            9.animation-fill-mode:动画前后状态
+                none:不改变默认行为
+                forwards:当动画完成后，保持最后一个属性值（在最后一个关键帧中定义）
+                backwards:在animation-delay所制定的一段时间内，在动画显示之前，应用开始属性值(在第一个关键帧中定义)
+                both:向前向后填充模式都被应用
+            10.同时设置多个属性值：
+                animation:name duration timing-function delay iteration-count direction
+        */
+        @keyframes moving {
+            from{
+                width: 100px;
+            }
+            to{
+                width: 300px;
+            }
+        }
+
+        /*浏览器兼容：有些浏览器需要加些前缀来兼容不同浏览器
+            -ms- :兼容IE浏览器
+            -moz- :兼容火狐浏览器
+            -o- :兼容opera
+            -webkit- :兼容chrome
+
+
+           一般用gulp插件来解决这些问题
+        */
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="box clearfix">
+        以上就需要遍历所找到name为找到name为checklistItem对象的value值checklistItem对象的value值有的属性来找到name为checklistItem对象的value值。
+    </div>
+
+    <div class="con">
+        <div class="con1">1</div>
+        <div class="con2">2</div>
+        <div class="con3">3</div>
+    </div>
+
+
+    <!--audio音频标签属性：
+        1.autoplay:自动播放
+        2.controls:显示播放器
+        3.loop:循环播放
+        4.preload:预加载
+        5.muted:静音
+    -->
+    <audio src="images/seeyou.mp3" controls autoplay></audio>
+
+
+    <audio controls autoplay>
+        <source src="images/seeyou.mp3">  <!--如果这个音频不兼容，就匹配下面那个，依次往下找-->
+        <source src="images/seeyou.mp3">
+    </audio>
+
+    <!--vidio视频标签属性：
+        width:设置宽度
+        height:设置高度
+        Poster:设置铺满
+
+        可选第三方播放器插件：
+            cyberplayer:百度
+            tencentPlayer：腾讯
+            youkuplayer：优酷
+
+    -->
+    <video src="images/qqsee.mp4" controls preload="auto"></video>
+</body>
+</html>

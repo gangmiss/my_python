@@ -6,6 +6,8 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="pygame" />
     <orderEntry type="module" module-name="MyStudyTest" />
+    <orderEntry type="module" module-name="majorserver" />
+    <orderEntry type="module" module-name="major" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="pytest" />

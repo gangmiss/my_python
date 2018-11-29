@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <!--第三种嵌入js方式：外链式-->
+    <!--<script type="text/javascript" src="js/hello.js"></script>-->
+
+
+    <!--第二种嵌入js方式：嵌入式-->
+    <script type="text/javascript" >
+        window.onload=function () {
+            var oDiv=document.getElementById('div1');
+            oDiv.onclick=click01;
+        }
+        function click01() {
+            alert('1111')
+        }
+
+        /*预解析：变量和函数都提前定义，然后赋值*/
+        var a=10
+
+        function changeStyle(elem,value) {
+            var oDiv=document.getElementById('div1');
+            oDiv.style[elem]=value
+        }
+        changeStyle('color','#ff0000')
+        changeStyle('background','gold')
+        changeStyle('width',300)
+
+
+        /*数组
+        * 1.创建数组两种方法：
+        *   var aList=new Array(1,2,'a');
+        *   var aList=[1,2,'a']
+        *
+        *
+        * 2.属性：
+        *   1.length：获取长度
+        *   2.用下标操作aList[2]
+        *   3.join('-') 用-连接元素
+        *   4.push(a)和pop() 从数组最后添加和删除
+        *   5.unshift(a)和shift() 从数组最前面添加和删除
+        *   6.reverse() 将数组反转
+        *   7.indexOf(a) 返回数组中第一次出现a的索引值
+        *   8.splice(2,3,7,8,9) 从第2个元素开始，删除3个元素，然后添加7，8，9三个元素
+        *
+        * */
+
+        /*字符串：
+        * 属性：
+        *   1.parseInt() 转化成整形
+        *   2.parseFloat() 转化成小数
+        *   3.split()  拆分返回数组
+        *   4.charAt() 获取索引处的某个字符
+        *   5.indexOf() 是否包含某个字符
+        *   6.subString() 截取字符串
+        *   7.toUpperCase() 转为大写
+        *   8.toLowerCase() 转为小写
+        *
+        * */
+
+    </script>
+
+</head>
+<body>
+
+    <!--第一种嵌入js方式：行间事件，不推荐使用-->
+    <!--<button id="btn1" name="" value="01"  onclick="alert('hello')">敲开JavaScript大门</button>-->
+
+
+    <div id="div1" style="width: 100px;height: 100px;background-color: gold"  ></div>
+
+</body>
+</html>

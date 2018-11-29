@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--视口：是移动端用来显示网页的区域，如果不设置适配不同大小窗口，网页就会按980px或者1024px进行缩放网页-->
+    <!--适配不同屏幕大小通用写法-->
+    <meta name="viewport"
+          content="width=device-width,user-scalable=no, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+    <title>Title</title>
+    <style>
+        .con {
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+        }
+
+        .con li {
+            list-style: none;
+            float: left;
+            width: 23%;
+            height: 100px;
+            text-align: center;
+            line-height: 100px;
+            margin: 30px 1%;
+            background-color: gold;
+        }
+
+        /*
+            @media (max-width: 767px)  { ... col-xs-3... }  { //<=767的设备 }  手机
+            @media (min-width: 768px)  { ... col-sm-3... }  { //>=768的设备 }  平板
+            @media (min-width: 992px)  { ... col-md-3...}   { //>=992的设备 }  电脑
+            @media (min-width: 1200px) { ... col-lg-3...}  { //>=1200的设备 }  大显示器
+        */
+        @media (max-width: 1200px) {
+            .con li{
+                width: 23%;
+                margin: 30px 1%;
+            }
+        }
+
+        @media (max-width: 960px) {
+             .con li{
+                width: 46%;
+                margin: 30px 2%;
+            }
+        }
+
+        @media (max-width: 480px) {
+             .con li{
+                width: 90%;
+                margin: 30px 5%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!--移动app分类：
+    1.Native APP：原生app手机应用程序，Android系统用java，IOS系统用object-C
+    2.Hybrid APP：混合型app应用程序，使用原生应用程序和html5页面配合开发
+    3.Web APP：基于web的应用app程序，完全使用html5页面加前端js框架开发
+-->
+
+<!--pc及移动端适配：
+    1.全适配：流体布局+响应式布局
+        1.流体布局：就是通过百分比设置盒子宽高
+            1）通过calc()计算，例如 width:calc(25% -4px)
+            2）通过box-sizing来设置，属性值如下：
+                content-box:默认盒子计算方式
+                border-box:设置盒子的计算尺寸从边框开始，盒子的尺寸，边框和内容填充算在盒子尺寸内
+        2.响应式布局：响应式布局就是使用媒体查询方式，通过查询浏览器宽度，不同的宽度应用不同的样式块，每个样式块对应的是该宽度下的布局方式，从而实现响应式布局，它可以适配多种终端(PC,平板，手机)
+            @media(max-width:960px){
+                .left_con{width:58%;}
+                .right_con{width:38%}
+            }
+            @media(max-width:768px){
+                .left_con{width:100%;}
+                .right_con{width:100%}
+            }
+
+    2.移动端适配：
+        1.流体布局+少量响应式布局
+        2.基于rem布局
+        3.弹性盒模型
+
+-->
+
+<div class="con">
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </ul>
+</div>
+
+</body>
+</html>

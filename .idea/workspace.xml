@@ -2,20 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d63f6deb-fc14-414e-aca1-8bd65fefb0e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_06数据库MySQL/_03与python交互" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_06数据库MySQL/_04与数据库交互.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_06数据库MySQL/_05数据库工具类封装.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_07非关系型数据库MongoDB/_01简介" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_07非关系型数据库MongoDB/_02mongodb高级用法" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_07非关系型数据库MongoDB/_03mongo与python交互" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08前端开发/_01HTML基础.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08前端开发/_02HTML标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/apple-touch-icon-precomposed-152.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_08前端开发/_03CSS样式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_08前端开发/_04盒子模型样式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_08前端开发/_05移动端开发.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_08前端开发/_06javascript学习.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_08前端开发/_07vue-cli学习.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_08前端开发/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_08前端开发/images/qqsee.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_08前端开发/images/seeyou.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_08前端开发/js/hello.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/major_server/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/major_server/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/major_server/images/bottom_addr_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/major_server/images/bottom_ask_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/major_server/images/bottom_main_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/major_server/images/bottom_me_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/major_server/images/menu01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/major_server/images/menu02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/major_server/images/news_img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/major_server/images/news_img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/major_server/images/process_down_img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/major_server/images/process_down_img4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/major_server/images/process_left_img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/major_server/images/process_right_img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/major_server/images/slide_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/major_server/images/turnin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/major_server/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/major_server/js/set_root.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/my_python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my_python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_06数据库/_01ubuntu系统下的Mysql安装.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_06数据库MySQL/_01ubuntu系统下的Mysql安装.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_06数据库/_02mysql命令.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_06数据库MySQL/_02mysql命令.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_08前端开发/_01HTML基础.html" beforeDir="false" afterPath="$PROJECT_DIR$/_08前端开发/_01HTML基础.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_08前端开发/_02HTML标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/_08前端开发/_02HTML标签.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,6 +98,20 @@
     <SUITE FILE_PATH="coverage/my_python$_17.coverage" NAME="_17异常处理 Coverage Results" MODIFIED="1541502615116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
     <SUITE FILE_PATH="coverage/my_python$test_.coverage" NAME="test_反仪 Coverage Results" MODIFIED="1541734849370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../MyStudyTest/com.gangmiss.test" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-981335263">
       <usages-collector id="statistics.lifecycle.project">
@@ -133,14 +164,18 @@
     <session id="-484648534">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.54" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -150,16 +185,20 @@
           <entry key="_03mongo与python交互" value="528" />
           <entry key="_03mongo安全" value="167" />
           <entry key="_03与python交互" value="47" />
+          <entry key="css" value="3471" />
           <entry key="dummy" value="27" />
-          <entry key="html" value="825" />
+          <entry key="html" value="16053" />
+          <entry key="js" value="748" />
           <entry key="py" value="3348" />
-          <entry key="txt" value="394" />
+          <entry key="txt" value="399" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="825" />
-          <entry key="PLAIN_TEXT" value="4057" />
+          <entry key="CSS" value="3471" />
+          <entry key="HTML" value="16053" />
+          <entry key="JavaScript" value="748" />
+          <entry key="PLAIN_TEXT" value="4062" />
           <entry key="Python" value="3876" />
         </counts>
       </usages-collector>
@@ -176,83 +215,46 @@
           <entry key="_03mongo与python交互" value="1" />
           <entry key="_03mongo安全" value="1" />
           <entry key="_03与python交互" value="1" />
-          <entry key="html" value="2" />
+          <entry key="babelrc" value="1" />
+          <entry key="css" value="8" />
+          <entry key="editorconfig" value="1" />
+          <entry key="eslintignore" value="1" />
+          <entry key="html" value="26" />
+          <entry key="jpg" value="1" />
+          <entry key="js" value="12" />
+          <entry key="json" value="1" />
+          <entry key="jsp" value="1" />
           <entry key="linux" value="2" />
+          <entry key="md" value="1" />
+          <entry key="png" value="1" />
           <entry key="py" value="12" />
           <entry key="txt" value="1" />
           <entry key="vi_command" value="1" />
+          <entry key="vue" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="2" />
-          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="CSS" value="8" />
+          <entry key="HTML" value="26" />
+          <entry key="Image" value="2" />
+          <entry key="JSON" value="2" />
+          <entry key="JSP" value="1" />
+          <entry key="JavaScript" value="12" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="12" />
           <entry key="Python" value="13" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_07非关系型数据库MongoDB/_01简介">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
-              <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_08前端开发/_01HTML基础.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_08前端开发/_02HTML标签.html">
+        <entry file="file://$PROJECT_DIR$/_08前端开发/_07vue-cli学习.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="35" column="60" lean-forward="true" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
-              <folding>
-                <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#358#364#0" expanded="true" />
-                <element signature="e#390#394#0" expanded="true" />
-                <element signature="e#394#398#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_07非关系型数据库MongoDB/_02mongodb高级用法">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="631">
-              <caret line="66" column="48" selection-start-line="66" selection-start-column="48" selection-end-line="66" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_07非关系型数据库MongoDB/_03mongo与python交互">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_04网络编程/_01Chat_Service.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="47" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="47" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="96">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -263,7 +265,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -271,6 +275,14 @@
     <findStrings>
       <find>elem</find>
       <find>sort</find>
+      <find>px</find>
+      <find>环</find>
+      <find>绕图</find>
+      <find>process_01</find>
+      <find>process_hang1</find>
+      <find>wrap_bottom</find>
+      <find>process_title</find>
+      <find>process</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -280,18 +292,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_03python高级编程/_06任务.py" />
-        <option value="$PROJECT_DIR$/_03python高级编程/_07_01进程池Pool.py" />
-        <option value="$PROJECT_DIR$/_03python高级编程/_08_01进程间通讯Queue.py" />
-        <option value="$PROJECT_DIR$/../MyStudyTest/com.gangmiss.test/test_反义.py" />
-        <option value="$PROJECT_DIR$/../MyStudyTest/com.gangmiss.test/test_反仪.py" />
-        <option value="$PROJECT_DIR$/_02python_basicknowledge/_08File文件.py" />
-        <option value="$PROJECT_DIR$/_03python高级编程/_08_02多任务拷贝文件.py" />
-        <option value="$PROJECT_DIR$/_03python高级编程/_08_03多任务拷贝纠正版.py" />
-        <option value="$PROJECT_DIR$/_03python高级编程/_09_01线程threading.py" />
-        <option value="$PROJECT_DIR$/_03python高级编程/_09_02线程共享变量.py" />
-        <option value="$PROJECT_DIR$/_03python高级编程/_09_03互斥锁Lock.py" />
-        <option value="$PROJECT_DIR$/_03python高级编程/_10_01死锁.py" />
         <option value="$PROJECT_DIR$/_03python高级编程/_10_01死锁的解决方案.py" />
         <option value="$PROJECT_DIR$/_03python高级编程/_11生产者与消费者模式.py" />
         <option value="$PROJECT_DIR$/_03python高级编程/_12LocalThread.py" />
@@ -330,7 +330,19 @@
         <option value="$PROJECT_DIR$/_07非关系型数据库MongoDB/_02mongodb高级用法" />
         <option value="$PROJECT_DIR$/_07非关系型数据库MongoDB/_03mongo与python交互" />
         <option value="$PROJECT_DIR$/_08前端开发/_01HTML基础.html" />
+        <option value="$PROJECT_DIR$/_08前端开发/css/main.css" />
         <option value="$PROJECT_DIR$/_08前端开发/_02HTML标签.html" />
+        <option value="$PROJECT_DIR$/major_server/js/set_root.js" />
+        <option value="$PROJECT_DIR$/_08前端开发/_04盒子模型样式.html" />
+        <option value="$PROJECT_DIR$/major_server/css/reset.css" />
+        <option value="$PROJECT_DIR$/major_server/css/main.css" />
+        <option value="$PROJECT_DIR$/_08前端开发/_05移动端开发.html" />
+        <option value="$PROJECT_DIR$/major_server/index.html" />
+        <option value="$PROJECT_DIR$/_08前端开发/_03CSS样式.html" />
+        <option value="$PROJECT_DIR$/_08前端开发/_06javascript学习.js" />
+        <option value="$PROJECT_DIR$/_08前端开发/js/hello.js" />
+        <option value="$PROJECT_DIR$/_08前端开发/_06javascript学习.html" />
+        <option value="$PROJECT_DIR$/_08前端开发/_07vue-cli学习.html" />
       </list>
     </option>
   </component>
@@ -353,6 +365,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="my_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_python" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -364,42 +387,22 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="my_python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my_python" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my_python" type="462c0819:PsiDirectoryNode" />
-              <item name="_08前端开发" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my_python" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/Program Files/Git/bin/git.exe" />
-    <property name="settings.editor.selected.configurable" value="tasks.servers" />
+    <property name="last_opened_file_path" value="D:/WebProjects/vue_studty/majorservice" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PythonProjects\my_python\_08前端开发\images" />
+      <recent name="D:\PythonProjects\my_python\major_server\images" />
       <recent name="D:\PythonProjects\my_python" />
       <recent name="C:\Users\Administrator\PycharmProjects\my_python\_04网络编程" />
       <recent name="C:\Users\Administrator\PycharmProjects\my_python\_03python高级编程" />
-      <recent name="C:\Users\Administrator\PycharmProjects\my_python\_02python_basicknowledge" />
-      <recent name="C:\Users\Administrator\PycharmProjects\pygame\com.gangmiss.game\plane" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -415,6 +418,52 @@
     </option>
   </component>
   <component name="RunManager" selected="Python._04与数据库交互">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <module name="majorservice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="majorservice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <module name="majorservice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="_01顺序表" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -547,6 +596,134 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="majorservice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer" factoryName="Flask server">
+      <module name="majorservice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="majorservice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="majorservice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="majorservice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <module name="majorservice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="majorservice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="majorservice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest in _05函数.py" type="tests" factoryName="py.test" nameIsGenerated="true">
       <module name="my_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -606,7 +783,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543130397112</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="mongo">
+      <created>1543235553915</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1543235553915</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -643,13 +827,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18230563" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19839142" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3460993" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -659,13 +842,13 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32907802" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32765958" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32624114" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32624114" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3297587" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -680,7 +863,8 @@
     <MESSAGE value="数据库学习2" />
     <MESSAGE value="数据库学习3" />
     <MESSAGE value="数据库学习5" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据库学习5" />
+    <MESSAGE value="mongo" />
+    <option name="LAST_COMMIT_MESSAGE" value="mongo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -714,211 +898,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_03python高级编程/_09_01线程threading.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_03python高级编程/_09_03互斥锁Lock.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_03python高级编程/_10_01死锁.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_03python高级编程/_10_01死锁的解决方案.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_03python高级编程/_13同步与异步.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_03python高级编程/_14GIL全局解释器锁.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_03python高级编程/_11生产者与消费者模式.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_04网络编程/_01TCP/IP协议(族).py" />
-    <entry file="file://$PROJECT_DIR$/_03python高级编程/_08_03多任务拷贝纠正版.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_03python高级编程/_06_01多任务(多进程).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_03python高级编程/_07_01进程池Pool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_03python高级编程/_08_01进程间通讯Queue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_03python高级编程/_08_02多任务拷贝文件.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_03python高级编程/_06_02多任务通用跨平台.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_04网络编程/_04TFTP_Server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="7" column="28" selection-end-line="46" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_04网络编程/_02Chat_Client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_04网络编程/_03TFTP_Client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <marker date="1542945066205" expanded="true" signature="156:163" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_04网络编程/_05网络编程TCP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_04网络编程/_08协程greenlet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_04网络编程/_09协程gevent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="999">
-          <caret line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_04网络编程/_07网络的小知识点.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_04网络编程/_06TCP三次握手，四次挥手.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="84" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_03python高级编程/_12ThreadLocal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_02python_basicknowledge/_08File文件.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_02python_basicknowledge/_06引用.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_02python_basicknowledge/_10类的继承.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_02python_basicknowledge/_11多继承.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_02python_basicknowledge/_12多态.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_02python_basicknowledge/_09OOP面向对象编程.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MyStudyTest/com.gangmiss.test/test_反仪.py" />
-    <entry file="file://$PROJECT_DIR$/../MyStudyTest/com.gangmiss.test/_01测试slots.py" />
-    <entry file="file://$PROJECT_DIR$/_05数据结构与算法/_01单链表的实现.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_05数据结构与算法/_02排序算法.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3456">
@@ -1004,30 +983,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_04网络编程/_01Chat_Service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="47" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_07非关系型数据库MongoDB/_03mongo与python交互">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_07非关系型数据库MongoDB/_02mongodb高级用法">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="66" column="48" selection-start-line="66" selection-start-column="48" selection-end-line="66" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_07非关系型数据库MongoDB/_01简介">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="696">
@@ -1035,23 +990,191 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_07非关系型数据库MongoDB/_02mongodb高级用法">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1584">
+          <caret line="66" column="48" selection-start-line="66" selection-start-column="48" selection-end-line="66" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_07非关系型数据库MongoDB/_03mongo与python交互">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_04网络编程/_01Chat_Service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="47" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_08前端开发/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../major/src/css/main.css" />
     <entry file="file://$PROJECT_DIR$/_08前端开发/_01HTML基础.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="21" />
+        <state relative-caret-position="39">
+          <caret line="39" column="15" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/major_server/js/set_root.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_08前端开发/_02HTML标签.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="35" column="60" lean-forward="true" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#358#364#0" expanded="true" />
-            <element signature="e#390#394#0" expanded="true" />
-            <element signature="e#394#398#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="198">
+          <caret line="155" column="40" selection-start-line="155" selection-start-column="40" selection-end-line="155" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/视频学习/Notes/13.web项目/studentManager/WebRoot/ShowDetialsServlet.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/major_server/images/process_down_img3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_08前端开发/_05移动端开发.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="47" column="35" lean-forward="true" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/major_server/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="127" column="21" selection-start-line="127" selection-start-column="21" selection-end-line="127" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/major_server/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="68" lean-forward="true" selection-start-column="68" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/major_server/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_08前端开发/_04盒子模型样式.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3528">
+          <caret line="147" column="115" selection-start-line="147" selection-start-column="115" selection-end-line="147" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_08前端开发/_06javascript学习.js" />
+    <entry file="file://$PROJECT_DIR$/_08前端开发/_03CSS样式.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="191" column="44" lean-forward="true" selection-start-line="191" selection-start-column="44" selection-end-line="191" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_08前端开发/_06javascript学习.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="65" column="7" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_08前端开发/js/hello.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/WebProjects/vue_studty/majorservice/.eslintignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/WebProjects/vue_studty/majorservice/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/WebProjects/vue_studty/majorservice/.babelrc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/WebProjects/vue_studty/majorservice/.eslintrc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-144" />
+      </provider>
+    </entry>
+    <entry file="file://D:/WebProjects/vue_studty/majorservice/.postcssrc.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/WebProjects/vue_studty/majorservice/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1241" />
+      </provider>
+    </entry>
+    <entry file="file://D:/WebProjects/vue_studty/majorservice/src/assets/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://D:/WebProjects/vue_studty/majorservice/config/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/WebProjects/vue_studty/majorservice/src/components/HelloWorld.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/WebProjects/vue_studty/majorservice/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/WebProjects/vue_studty/majorservice/src/main.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/WebProjects/vue_studty/majorservice/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/WebProjects/vue_studty/majorservice/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/WebProjects/vue_studty/majorservice/config/dev.env.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/WebProjects/vue_studty/majorservice/config/prod.env.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/WebProjects/vue_studty/majorservice/build/utils.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/WebProjects/vue_studty/majorservice/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_08前端开发/_07vue-cli学习.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>

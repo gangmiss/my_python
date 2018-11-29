@@ -5,10 +5,11 @@
     <title>标签学习</title>
 </head>
 <body>
+
     <div>  <!--块标签-->
-        <h1>一级标签</h1>
-        <h2>二级标签</h2>
-        <h2>三级标签</h2>
+        <h1 id="title1">一级标签</h1>  <!--id，name定义元素锚点 name在有些浏览器上可能不兼容-->
+        <h2 id="title2">二级标签</h2>
+        <h2 id="title3">三级标签</h2>
 
         <!-- &nbsp; 表示空格-->
         <!--&gt; 大于号-->
@@ -28,12 +29,188 @@
         <!--语义化标签：就是在布局的时候多使用语义化的标签，搜索引擎在爬网的时候会认识
         这些标签，理解文档结构。比如：h1标签表示标题，p标签表示段落，ul，li表示列表，
         a标签表示链接，dl，dt，dd定义列表-->
-        
+
+        <!--img图片如果给一边的大小，比如只给宽度，高度会自动按比列缩放-->
         <img src="../images/favicon.ico" alt="美图秀秀">
+        <img src="http://p1.so.qhimgs1.com/bdr/_240_/t016a4c869737ea0381.jpg" alt="飘洋过海来看你">
 
         <!--链接到网页顶部-->
         <a href="#">回到顶部</a>
-        <a href="www.baidu.com" title="跳到百度链接"><strong><em>目标</em></strong></a>
+        <a href="JavaScript:;">啥都不干</a>
+        <a href="http://p1.so.qhimgs1.com/bdr/_240_/t016a4c869737ea0381.jpg" title="飘洋过海来看你"><strong><em>目标</em></strong></a>
+        <a href="http://www.baidu.com">
+            <img src="../images/favicon.ico" title="提示美图" alt="描述美图"/>
+        </a>
+        <!--页面内滚动跳转-->
+        <a href="#title2">跳转到id为titles的锚点处</a>
+        <br>
+        <!--target默认是_self，在当前页面跳转到新页面，_blank新开窗口跳转新页面-->
+        <a href="http://www.baidu.com" title="链接到百度" target="_blank">百度网</a>
+
+        <br>
+        <!--快捷键 ol>li*3 再按tab键 -->
+        <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+
+        <h3>有序列表</h3>
+        <ol>
+            <li>学习html</li>
+            <li>学习css</li>
+            <li>学习javascript</li>
+        </ol>
+
+        <br>
+        <h3>无序列表</h3>
+        <ul>
+            <li>学习html</li>
+            <li>学习css</li>
+            <li>学习javascript</li>
+        </ul>
+
+        <br>
+        <h3>自定义列表</h3>
+
+        <!--快捷键 dl>(dt+dd)*3 tab键--> <!-- 父子级用>号，平级用+号 -->
+        <dl>
+            <dt>html</dt> <!--概念-->
+            <dd>学习html</dd> <!--解释-->
+
+            <dt>css</dt>
+            <dd>学习css</dd>
+
+            <dt>javascript</dt>
+            <dd>学习javascript</dd>
+        </dl>
+
+        <br>
+        <h3>水果价格表</h3>
+        <!--表格标签-->
+        <!-- table>tr*1>th*4+tr*3>td*4 tab键  ：表示画了一行表头和3行4列的表格-->
+        <!--表格属性
+            border:定义边框宽度
+            width:表格的总宽度
+            height:表格的总高度
+            align:设置水平位置 left center right
+            valign:设置垂直位置 top middle bottom
+            cellpadding:设置单元格内容与边框的距离
+            cellspacing:设置单元格之间的距离
+            colspan:设置单元格水平合并
+            rowspan：设置单元格垂直合并
+
+        -->
+        <table border="1" align="center" cellspacing="5" cellpadding="4">  <!--定义表格-->
+            <tr  align="center" valign="middle">
+                <th colspan="4">水果价格表</th>
+            </tr>
+            <tr>      <!--定义行-->
+                <th>序号</th>     <!--定义表头-->
+                <th>产品名称</th>
+                <th>产品价格</th>
+                <th>产品数量</th>
+            <tr>
+                <td align="center">1</td>     <!--定义列-->
+                <td>苹果</td>
+                <td>3.4</td>
+                <td>2800</td>
+            </tr>
+            <tr>
+                <td align="center" rowspan="2">2</td>
+                <td>梨子</td>
+                <td>5.2</td>
+                <td>1200</td>
+            </tr>
+            <tr>
+                <!--<td align="center">3</td>-->
+                <td>香蕉</td>
+                <td>2.8</td>
+                <td>600</td>
+            </tr>
+            </tr>
+        </table>
+
+
+        <br>
+        <hr>
+        <!--表单form：用于搜集用户输入信息，表单由不同类型标签组成，实现一个特定功能的表单区域-->
+        <!--
+            http://localhost:63342/my_python/_08%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/www.baidu.com?user=gangmiss&pwd=dfsdaff&sex=1&city=1&photo=&like=mile&like=health&like=book&like=communicate&like=play&like=girlfriend&description=%E5%90%83%E8%8B%A6%E5%8E%BB%E5%96%BD&submit=%E6%8F%90%E4%BA%A4
+        -->
+        <form action="www.baidu.com" method="post">
+            <h3>用户注册</h3>
+            <div>
+                <label for="username">用户名</label> <!--控件的标注，for可以激活相应控件-->
+                <input id="username" type="text" name="user" value="gangmiss">
+            </div>
+
+            <div>
+                <label for="pwd">密码</label>
+                <input id="pwd" type="password" name="pwd">
+            </div>
+
+            <div>
+                <label>性别：</label>
+                <!--name是提交的字段名称，value是该字段的值-->
+                <input id="nan" type="radio" name="sex" value="1"> <label for="nan">男</label>
+                <input id="nv" type="radio" name="sex" value="0"> <label for="nv">女</label>
+            </div>
+
+            <div>
+                <label>籍贯：</label>
+                <select name="city">
+                    <option value="0">北京</option>
+                    <option value="1">上海</option>
+                    <option value="2">深圳</option>
+                    <option value="3">广州</option>
+                </select>
+            </div>
+
+            <div>
+                <label>头像：</label>
+                <input type="file" name="photo">
+            </div>
+
+            <div>
+                <label>爱好：</label>
+                <input type="checkbox" name="like" value="mile"> 做饭
+                <input type="checkbox" name="like" value="health"> 健身
+                <input type="checkbox" name="like" value="book"> 看书
+                <input type="checkbox" name="like" value="communicate"> 交友
+                <input type="checkbox" name="like" value="play"> 打球
+                <input type="checkbox" name="like" value="girlfriend"> 泡妹
+            </div>
+
+            <div>
+                <label>个人描述：</label>
+                <textarea name="description"></textarea>
+            </div>
+
+            <div>
+                <button value="提交哦" >提交哦</button> <!--具有提交功能-->
+                <input type="submit" value="提交" >
+                <input type="reset" value="重置" >
+                <input type="button" value="按钮" >  <!--单纯一个按钮-->
+                <input type="image" src="../images/favicon.ico">  <!--放置一张图片用于提交，尽量不用这种方式，可能会提交两次-->
+                <input type="hidden" name="type" value="1"> <!--帮助我们存储提交服务器获取的重要信息或者独特的type类型的字段-->
+            </div>
+        </form>
+
+
+        <br>
+        <hr>
+        <br>
+        <br>
+        <!--iframe：内嵌框架，该区域可以放置另外一个html页面，可以是网上的，也可以是本地的，一般与a标签配合使用或者合并html文件-->
+        <div>
+            <a href="http://www.baidu.com" target="explore">百度网</a>
+            <a href="http://www.itcast.cn/" target="explore">腾讯网</a>
+            <a href="http://www.goole.com" target="explore">谷歌网</a>
+        </div>
+        <div>
+            <iframe name="explore" width="800" height="1000" src="http://www.baidu.com" frameborder="0" scrolling="no"></iframe>
+        </div>
     </div>
 </body>
 </html>
