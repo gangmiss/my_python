@@ -8,6 +8,7 @@
     <orderEntry type="module" module-name="MyStudyTest" />
     <orderEntry type="module" module-name="majorserver" />
     <orderEntry type="module" module-name="major" />
+    <orderEntry type="module" module-name="my_django_project" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="pytest" />

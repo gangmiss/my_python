@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d63f6deb-fc14-414e-aca1-8bd65fefb0e8" name="Default Changelist" comment="" />
+    <list default="true" id="d63f6deb-fc14-414e-aca1-8bd65fefb0e8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/my_python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my_python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_08前端开发/_07vue-cli学习.html" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,62 +14,62 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/my_python$_08_03.coverage" NAME="_08_03多任务拷贝纠正版 Coverage Results" MODIFIED="1541751773074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_03python高级编程" />
-    <SUITE FILE_PATH="coverage/my_python$_15__new__.coverage" NAME="_15对象的生成过程__new__方法 Coverage Results" MODIFIED="1541498881986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
-    <SUITE FILE_PATH="coverage/my_python$pytest_for__18_01sendmessage_test1.coverage" NAME="pytest for _18_01sendmessage.test1 Coverage Results" MODIFIED="1541506602183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
-    <SUITE FILE_PATH="coverage/my_python$_18_01sendmessage.coverage" NAME="_18_01sendmessage Coverage Results" MODIFIED="1541539511742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
-    <SUITE FILE_PATH="coverage/my_python$_21.coverage" NAME="_21列表推导式 Coverage Results" MODIFIED="1541542844810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
-    <SUITE FILE_PATH="coverage/my_python$_18.coverage" NAME="_18模块 Coverage Results" MODIFIED="1541539520399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
-    <SUITE FILE_PATH="coverage/my_python$pytest_in__05_py.coverage" NAME="pytest in _05函数.py Coverage Results" MODIFIED="1541155922234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
-    <SUITE FILE_PATH="coverage/my_python$_01basic_variable.coverage" NAME="_01basic_variable Coverage Results" MODIFIED="1541131633182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
-    <SUITE FILE_PATH="coverage/my_python$IP__.coverage" NAME="IP协议(族) Coverage Results" MODIFIED="1541824464747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_04网络编程/_01TCP" />
-    <SUITE FILE_PATH="coverage/my_python$_26.coverage" NAME="_26源码，反码，补码 Coverage Results" MODIFIED="1541595167247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
-    <SUITE FILE_PATH="coverage/my_python$_03dictionary.coverage" NAME="_03dictionary字典 Coverage Results" MODIFIED="1541155855675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
-    <SUITE FILE_PATH="coverage/my_python$_20.coverage" NAME="_20给程序传参 Coverage Results" MODIFIED="1541541674384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
-    <SUITE FILE_PATH="coverage/my_python$_06_02.coverage" NAME="_06_02多任务通用跨平台 Coverage Results" MODIFIED="1541821542137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_03python高级编程" />
-    <SUITE FILE_PATH="coverage/my_python$_03.coverage" NAME="_03不定长参数闭包装饰器 Coverage Results" MODIFIED="1541635380175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_03python高级编程" />
-    <SUITE FILE_PATH="coverage/my_python$_02.coverage" NAME="_02排序算法 Coverage Results" MODIFIED="1542941769455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_05数据结构与算法" />
-    <SUITE FILE_PATH="coverage/my_python$_10_01.coverage" NAME="_10_01死锁 Coverage Results" MODIFIED="1541766591119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_03python高级编程" />
-    <SUITE FILE_PATH="coverage/my_python$_08File.coverage" NAME="_08File文件 Coverage Results" MODIFIED="1541214008341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
-    <SUITE FILE_PATH="coverage/my_python$_hello_world.coverage" NAME="_hello_world Coverage Results" MODIFIED="1541120536835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ubuntu_command" />
-    <SUITE FILE_PATH="coverage/my_python$_22set.coverage" NAME="_22集合set Coverage Results" MODIFIED="1541543508669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
-    <SUITE FILE_PATH="coverage/my_python$_12ThreadLocal.coverage" NAME="_12ThreadLocal Coverage Results" MODIFIED="1541771368456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_03python高级编程" />
-    <SUITE FILE_PATH="coverage/my_python$_14.coverage" NAME="_14类的设计思想 Coverage Results" MODIFIED="1541497697445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
-    <SUITE FILE_PATH="coverage/my_python$_07.coverage" NAME="_07匿名函数 Coverage Results" MODIFIED="1541207888995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
-    <SUITE FILE_PATH="coverage/my_python$_04.coverage" NAME="_04与数据库交互 Coverage Results" MODIFIED="1543137002917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_06数据库" />
     <SUITE FILE_PATH="coverage/my_python$_01.coverage" NAME="_01单链表的实现 Coverage Results" MODIFIED="1542250768540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_05数据结构与算法" />
-    <SUITE FILE_PATH="coverage/my_python$_01Chat_Service.coverage" NAME="_01Chat_Service Coverage Results" MODIFIED="1541839001196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_04网络编程" />
-    <SUITE FILE_PATH="coverage/my_python$_16.coverage" NAME="_16单例模式 Coverage Results" MODIFIED="1541500393492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
-    <SUITE FILE_PATH="coverage/my_python$_02Chat_Client.coverage" NAME="_02Chat_Client Coverage Results" MODIFIED="1541840853782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_04网络编程" />
-    <SUITE FILE_PATH="coverage/my_python$_25.coverage" NAME="_25深拷贝和浅拷贝 Coverage Results" MODIFIED="1541591654824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
-    <SUITE FILE_PATH="coverage/my_python$_create_window.coverage" NAME="_create_window Coverage Results" MODIFIED="1541577255147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../pygame/com.gangmiss.game/plane" />
-    <SUITE FILE_PATH="coverage/my_python$_01slots.coverage" NAME="_01测试slots Coverage Results" MODIFIED="1542246992995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../MyStudyTest/com.gangmiss.test" />
-    <SUITE FILE_PATH="coverage/my_python$_08_02.coverage" NAME="_08_02多任务拷贝文件 Coverage Results" MODIFIED="1541735436908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_03python高级编程" />
-    <SUITE FILE_PATH="coverage/my_python$_13.coverage" NAME="_13同步与异步 Coverage Results" MODIFIED="1541772373260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_03python高级编程" />
-    <SUITE FILE_PATH="coverage/my_python$_09_02.coverage" NAME="_09_02线程共享变量 Coverage Results" MODIFIED="1541764505748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_03python高级编程" />
-    <SUITE FILE_PATH="coverage/my_python$_06__.coverage" NAME="_06多任务(多进程) Coverage Results" MODIFIED="1541720461902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_03python高级编程" />
-    <SUITE FILE_PATH="coverage/my_python$_greenlet.coverage" NAME="_协程greenlet Coverage Results" MODIFIED="1542198550272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_04网络编程" />
-    <SUITE FILE_PATH="coverage/my_python$_10.coverage" NAME="_10类的继承 Coverage Results" MODIFIED="1541487977409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
-    <SUITE FILE_PATH="coverage/my_python$_09_01threading.coverage" NAME="_09_01线程threading Coverage Results" MODIFIED="1541761215891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_03python高级编程" />
-    <SUITE FILE_PATH="coverage/my_python$_11.coverage" NAME="_11生产者与消费者模式 Coverage Results" MODIFIED="1541821939328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_03python高级编程" />
-    <SUITE FILE_PATH="coverage/my_python$09_OOP.coverage" NAME="09_OOP面向对象编程 Coverage Results" MODIFIED="1541486158344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
-    <SUITE FILE_PATH="coverage/my_python$_09_03Lock.coverage" NAME="_09_03互斥锁Lock Coverage Results" MODIFIED="1541765044604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_03python高级编程" />
-    <SUITE FILE_PATH="coverage/my_python$pytest_in__18_01sendmessage_py.coverage" NAME="pytest in _18_01sendmessage.py Coverage Results" MODIFIED="1541506586137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
-    <SUITE FILE_PATH="coverage/my_python$_06.coverage" NAME="_06引用 Coverage Results" MODIFIED="1541158026521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
-    <SUITE FILE_PATH="coverage/my_python$_create_mygame_window.coverage" NAME="_create_mygame_window Coverage Results" MODIFIED="1541588406185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../pygame/com.gangmiss.game/plane" />
-    <SUITE FILE_PATH="coverage/my_python$_27property.coverage" NAME="_27property Coverage Results" MODIFIED="1541598481917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
-    <SUITE FILE_PATH="coverage/my_python$_12.coverage" NAME="_12多态 Coverage Results" MODIFIED="1541490381417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
-    <SUITE FILE_PATH="coverage/my_python$_28.coverage" NAME="_28生成器 Coverage Results" MODIFIED="1541667505609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
-    <SUITE FILE_PATH="coverage/my_python$_03TFTP_Client.coverage" NAME="_03TFTP_Client Coverage Results" MODIFIED="1541917870899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_04网络编程" />
-    <SUITE FILE_PATH="coverage/my_python$_07_01Pool.coverage" NAME="_07_01进程池Pool Coverage Results" MODIFIED="1541821903910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_03python高级编程" />
-    <SUITE FILE_PATH="coverage/my_python$_05.coverage" NAME="_05函数 Coverage Results" MODIFIED="1541160621658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
+    <SUITE FILE_PATH="coverage/my_python$_04.coverage" NAME="_04与数据库交互 Coverage Results" MODIFIED="1543137002917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_06数据库" />
     <SUITE FILE_PATH="coverage/my_python$05___3_.coverage" NAME="05-飞机大战-控制飞机左右移动-3-面向对象 Coverage Results" MODIFIED="1541576508114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../pygame/com.gangmiss.game/plane" />
+    <SUITE FILE_PATH="coverage/my_python$_07.coverage" NAME="_07匿名函数 Coverage Results" MODIFIED="1541207888995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
+    <SUITE FILE_PATH="coverage/my_python$_08_03.coverage" NAME="_08_03多任务拷贝纠正版 Coverage Results" MODIFIED="1541751773074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_03python高级编程" />
+    <SUITE FILE_PATH="coverage/my_python$_13.coverage" NAME="_13同步与异步 Coverage Results" MODIFIED="1541772373260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_03python高级编程" />
+    <SUITE FILE_PATH="coverage/my_python$_greenlet.coverage" NAME="_协程greenlet Coverage Results" MODIFIED="1542198550272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_04网络编程" />
+    <SUITE FILE_PATH="coverage/my_python$_16.coverage" NAME="_16单例模式 Coverage Results" MODIFIED="1541500393492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
     <SUITE FILE_PATH="coverage/my_python$_04TFTP_Server.coverage" NAME="_04TFTP_Server Coverage Results" MODIFIED="1541916029159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_04网络编程" />
-    <SUITE FILE_PATH="coverage/my_python$02__.coverage" NAME="02-飞机大战-显示玩家飞机 Coverage Results" MODIFIED="1541573469860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../pygame/com.gangmiss.game/plane" />
+    <SUITE FILE_PATH="coverage/my_python$_01basic_variable.coverage" NAME="_01basic_variable Coverage Results" MODIFIED="1541131633182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
+    <SUITE FILE_PATH="coverage/my_python$pytest_for__18_01sendmessage_test1.coverage" NAME="pytest for _18_01sendmessage.test1 Coverage Results" MODIFIED="1541506602183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
     <SUITE FILE_PATH="coverage/my_python$_create_mygame_window__1_.coverage" NAME="_create_mygame_window (1) Coverage Results" MODIFIED="1541589739748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge/_23飞机大战联系" />
+    <SUITE FILE_PATH="coverage/my_python$_02Chat_Client.coverage" NAME="_02Chat_Client Coverage Results" MODIFIED="1541840853782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_04网络编程" />
+    <SUITE FILE_PATH="coverage/my_python$_10.coverage" NAME="_10类的继承 Coverage Results" MODIFIED="1541487977409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
+    <SUITE FILE_PATH="coverage/my_python$_03dictionary.coverage" NAME="_03dictionary字典 Coverage Results" MODIFIED="1541155855675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
+    <SUITE FILE_PATH="coverage/my_python$_06__.coverage" NAME="_06多任务(多进程) Coverage Results" MODIFIED="1541720461902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_03python高级编程" />
+    <SUITE FILE_PATH="coverage/my_python$_20.coverage" NAME="_20给程序传参 Coverage Results" MODIFIED="1541541674384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
+    <SUITE FILE_PATH="coverage/my_python$_10_01.coverage" NAME="_10_01死锁 Coverage Results" MODIFIED="1541766591119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_03python高级编程" />
+    <SUITE FILE_PATH="coverage/my_python$_26.coverage" NAME="_26源码，反码，补码 Coverage Results" MODIFIED="1541595167247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
+    <SUITE FILE_PATH="coverage/my_python$_hello_world.coverage" NAME="_hello_world Coverage Results" MODIFIED="1541120536835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ubuntu_command" />
+    <SUITE FILE_PATH="coverage/my_python$_create_window.coverage" NAME="_create_window Coverage Results" MODIFIED="1541577255147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../pygame/com.gangmiss.game/plane" />
+    <SUITE FILE_PATH="coverage/my_python$_07_01Pool.coverage" NAME="_07_01进程池Pool Coverage Results" MODIFIED="1541821903910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_03python高级编程" />
+    <SUITE FILE_PATH="coverage/my_python$_03.coverage" NAME="_03不定长参数闭包装饰器 Coverage Results" MODIFIED="1541635380175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_03python高级编程" />
+    <SUITE FILE_PATH="coverage/my_python$_25.coverage" NAME="_25深拷贝和浅拷贝 Coverage Results" MODIFIED="1541591654824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
+    <SUITE FILE_PATH="coverage/my_python$_02.coverage" NAME="_02排序算法 Coverage Results" MODIFIED="1542941769455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_05数据结构与算法" />
+    <SUITE FILE_PATH="coverage/my_python$_27property.coverage" NAME="_27property Coverage Results" MODIFIED="1541598481917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
+    <SUITE FILE_PATH="coverage/my_python$_22set.coverage" NAME="_22集合set Coverage Results" MODIFIED="1541543508669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
+    <SUITE FILE_PATH="coverage/my_python$_01slots.coverage" NAME="_01测试slots Coverage Results" MODIFIED="1542246992995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../MyStudyTest/com.gangmiss.test" />
+    <SUITE FILE_PATH="coverage/my_python$_09_01threading.coverage" NAME="_09_01线程threading Coverage Results" MODIFIED="1541761215891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_03python高级编程" />
+    <SUITE FILE_PATH="coverage/my_python$_09_03Lock.coverage" NAME="_09_03互斥锁Lock Coverage Results" MODIFIED="1541765044604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_03python高级编程" />
+    <SUITE FILE_PATH="coverage/my_python$_03TFTP_Client.coverage" NAME="_03TFTP_Client Coverage Results" MODIFIED="1541917870899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_04网络编程" />
+    <SUITE FILE_PATH="coverage/my_python$_14.coverage" NAME="_14类的设计思想 Coverage Results" MODIFIED="1541497697445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
+    <SUITE FILE_PATH="coverage/my_python$_01Chat_Service.coverage" NAME="_01Chat_Service Coverage Results" MODIFIED="1541839001196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_04网络编程" />
+    <SUITE FILE_PATH="coverage/my_python$_08File.coverage" NAME="_08File文件 Coverage Results" MODIFIED="1541214008341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
+    <SUITE FILE_PATH="coverage/my_python$_21.coverage" NAME="_21列表推导式 Coverage Results" MODIFIED="1541542844810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
+    <SUITE FILE_PATH="coverage/my_python$_12.coverage" NAME="_12多态 Coverage Results" MODIFIED="1541490381417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
+    <SUITE FILE_PATH="coverage/my_python$_15__new__.coverage" NAME="_15对象的生成过程__new__方法 Coverage Results" MODIFIED="1541498881986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
+    <SUITE FILE_PATH="coverage/my_python$_06.coverage" NAME="_06引用 Coverage Results" MODIFIED="1541158026521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
+    <SUITE FILE_PATH="coverage/my_python$02__.coverage" NAME="02-飞机大战-显示玩家飞机 Coverage Results" MODIFIED="1541573469860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../pygame/com.gangmiss.game/plane" />
+    <SUITE FILE_PATH="coverage/my_python$pytest_in__05_py.coverage" NAME="pytest in _05函数.py Coverage Results" MODIFIED="1541155922234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
+    <SUITE FILE_PATH="coverage/my_python$_06_02.coverage" NAME="_06_02多任务通用跨平台 Coverage Results" MODIFIED="1541821542137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_03python高级编程" />
     <SUITE FILE_PATH="coverage/my_python$_09gevent.coverage" NAME="_09协程gevent Coverage Results" MODIFIED="1542199165589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_04网络编程" />
+    <SUITE FILE_PATH="coverage/my_python$_09_02.coverage" NAME="_09_02线程共享变量 Coverage Results" MODIFIED="1541764505748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_03python高级编程" />
+    <SUITE FILE_PATH="coverage/my_python$_18.coverage" NAME="_18模块 Coverage Results" MODIFIED="1541539520399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
+    <SUITE FILE_PATH="coverage/my_python$_08_02.coverage" NAME="_08_02多任务拷贝文件 Coverage Results" MODIFIED="1541735436908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_03python高级编程" />
+    <SUITE FILE_PATH="coverage/my_python$_11.coverage" NAME="_11生产者与消费者模式 Coverage Results" MODIFIED="1541821939328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_03python高级编程" />
     <SUITE FILE_PATH="coverage/my_python$_17.coverage" NAME="_17异常处理 Coverage Results" MODIFIED="1541502615116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
+    <SUITE FILE_PATH="coverage/my_python$pytest_in__18_01sendmessage_py.coverage" NAME="pytest in _18_01sendmessage.py Coverage Results" MODIFIED="1541506586137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
+    <SUITE FILE_PATH="coverage/my_python$09_OOP.coverage" NAME="09_OOP面向对象编程 Coverage Results" MODIFIED="1541486158344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
+    <SUITE FILE_PATH="coverage/my_python$_create_mygame_window.coverage" NAME="_create_mygame_window Coverage Results" MODIFIED="1541588406185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../pygame/com.gangmiss.game/plane" />
+    <SUITE FILE_PATH="coverage/my_python$_18_01sendmessage.coverage" NAME="_18_01sendmessage Coverage Results" MODIFIED="1541539511742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
+    <SUITE FILE_PATH="coverage/my_python$_12ThreadLocal.coverage" NAME="_12ThreadLocal Coverage Results" MODIFIED="1541771368456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_03python高级编程" />
+    <SUITE FILE_PATH="coverage/my_python$_28.coverage" NAME="_28生成器 Coverage Results" MODIFIED="1541667505609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
+    <SUITE FILE_PATH="coverage/my_python$_05.coverage" NAME="_05函数 Coverage Results" MODIFIED="1541160621658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
     <SUITE FILE_PATH="coverage/my_python$test_.coverage" NAME="test_反仪 Coverage Results" MODIFIED="1541734849370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../MyStudyTest/com.gangmiss.test" />
+    <SUITE FILE_PATH="coverage/my_python$IP__.coverage" NAME="IP协议(族) Coverage Results" MODIFIED="1541824464747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_04网络编程/_01TCP" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -79,6 +84,9 @@
     </option>
     <expand />
     <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-981335263">
@@ -132,22 +140,26 @@
     <session id="-484648534">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.54" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="01_django安装" value="1185" />
+          <entry key="Django Console" value="6" />
           <entry key="_01简介" value="2094" />
           <entry key="_02mongodb高级用法" value="1328" />
           <entry key="_03mongo与python交互" value="528" />
@@ -155,19 +167,19 @@
           <entry key="_03与python交互" value="47" />
           <entry key="css" value="3471" />
           <entry key="dummy" value="27" />
-          <entry key="html" value="16053" />
+          <entry key="html" value="18496" />
           <entry key="js" value="748" />
-          <entry key="py" value="3348" />
+          <entry key="py" value="4994" />
           <entry key="txt" value="410" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="3471" />
-          <entry key="HTML" value="16053" />
+          <entry key="HTML" value="18496" />
           <entry key="JavaScript" value="748" />
-          <entry key="PLAIN_TEXT" value="4073" />
-          <entry key="Python" value="3876" />
+          <entry key="PLAIN_TEXT" value="5258" />
+          <entry key="Python" value="5528" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -178,6 +190,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="01_django安装" value="1" />
           <entry key="_01简介" value="1" />
           <entry key="_02mongodb高级用法" value="1" />
           <entry key="_03mongo与python交互" value="1" />
@@ -187,7 +200,7 @@
           <entry key="css" value="8" />
           <entry key="editorconfig" value="1" />
           <entry key="eslintignore" value="1" />
-          <entry key="html" value="26" />
+          <entry key="html" value="35" />
           <entry key="jpg" value="1" />
           <entry key="js" value="12" />
           <entry key="json" value="1" />
@@ -195,7 +208,7 @@
           <entry key="linux" value="2" />
           <entry key="md" value="1" />
           <entry key="png" value="1" />
-          <entry key="py" value="12" />
+          <entry key="py" value="23" />
           <entry key="txt" value="1" />
           <entry key="vi_command" value="1" />
           <entry key="vue" value="2" />
@@ -204,25 +217,85 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="8" />
-          <entry key="HTML" value="26" />
+          <entry key="HTML" value="35" />
           <entry key="Image" value="2" />
           <entry key="JSON" value="2" />
           <entry key="JSP" value="1" />
           <entry key="JavaScript" value="12" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="13" />
+          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="Python" value="24" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_08前端开发/_07vue-cli学习.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_08前端开发/_02HTML标签.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            <state relative-caret-position="3720">
+              <caret line="155" column="40" selection-start-line="155" selection-start-column="40" selection-end-line="155" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../my_django_project/templates/test1/save_book.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../my_django_project/templates/test1/query_all.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../my_django_project/test1/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../my_django_project/test1/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
+              <folding>
+                <marker date="1543613066865" expanded="true" signature="294:299" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../my_django_project/test1/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../my_django_project/templates/test1/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -260,17 +333,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_03python高级编程/_10_01死锁的解决方案.py" />
-        <option value="$PROJECT_DIR$/_03python高级编程/_11生产者与消费者模式.py" />
-        <option value="$PROJECT_DIR$/_03python高级编程/_12LocalThread.py" />
-        <option value="$PROJECT_DIR$/_03python高级编程/_12ThreadLocal.py" />
-        <option value="$PROJECT_DIR$/_03python高级编程/_13同步与异步.py" />
-        <option value="$PROJECT_DIR$/_03python高级编程/_14GIL全局解释器锁.py" />
-        <option value="$PROJECT_DIR$/_03python高级编程/_06_01多任务(多进程).py" />
-        <option value="$PROJECT_DIR$/_04网络编程/_01TCP/IP协议(族).py" />
-        <option value="$PROJECT_DIR$/_04网络编程/_01Chat_Service.py" />
-        <option value="$PROJECT_DIR$/_03python高级编程/_06_02多任务通用跨平台.py" />
-        <option value="$PROJECT_DIR$/_04网络编程/_02Chat_Client.py" />
         <option value="$PROJECT_DIR$/_04网络编程/_04TFTP_Server.py" />
         <option value="$PROJECT_DIR$/_04网络编程/_03TFTP_Client.py" />
         <option value="$PROJECT_DIR$/_04网络编程/_05udp广播.py" />
@@ -311,6 +373,17 @@
         <option value="$PROJECT_DIR$/_08前端开发/js/hello.js" />
         <option value="$PROJECT_DIR$/_08前端开发/_06javascript学习.html" />
         <option value="$PROJECT_DIR$/_08前端开发/_07vue-cli学习.html" />
+        <option value="$PROJECT_DIR$/../my_django_project/notes/01_django安装" />
+        <option value="$PROJECT_DIR$/../my_django_project/test1/admin.py" />
+        <option value="$PROJECT_DIR$/../my_django_project/my_django_project/settings.py" />
+        <option value="$PROJECT_DIR$/../my_django_project/my_django_project/urls.py" />
+        <option value="$PROJECT_DIR$/../my_django_project/templates/test1/save.html" />
+        <option value="$PROJECT_DIR$/../my_django_project/templates/test1/query_all.html" />
+        <option value="$PROJECT_DIR$/../my_django_project/templates/test1/save_book.html" />
+        <option value="$PROJECT_DIR$/../my_django_project/templates/test1/index.html" />
+        <option value="$PROJECT_DIR$/../my_django_project/test1/views.py" />
+        <option value="$PROJECT_DIR$/../my_django_project/test1/urls.py" />
+        <option value="$PROJECT_DIR$/../my_django_project/test1/models.py" />
       </list>
     </option>
   </component>
@@ -340,6 +413,36 @@
               <item name="my_python" type="b2602c69:ProjectViewProjectNode" />
               <item name="my_python" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="my_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_python" type="462c0819:PsiDirectoryNode" />
+              <item name="_08前端开发" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_django_project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_django_project" type="462c0819:PsiDirectoryNode" />
+              <item name="my_django_project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_django_project" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_django_project" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="test1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_django_project" type="462c0819:PsiDirectoryNode" />
+              <item name="test1" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -366,11 +469,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PythonProjects\my_django_project\test1" />
       <recent name="D:\PythonProjects\my_python\_08前端开发\images" />
       <recent name="D:\PythonProjects\my_python\major_server\images" />
       <recent name="D:\PythonProjects\my_python" />
       <recent name="C:\Users\Administrator\PycharmProjects\my_python\_04网络编程" />
-      <recent name="C:\Users\Administrator\PycharmProjects\my_python\_03python高级编程" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -385,8 +488,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python._04与数据库交互">
-    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+  <component name="RunManager" selected="Django server.my_django_project">
+    <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="majorservice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -586,6 +689,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="my_django_project" type="Python.DjangoServer" factoryName="Django server">
+      <module name="my_django_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="Python.FlaskServer" factoryName="Flask server">
       <module name="majorservice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -709,12 +835,13 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest in _05函数.py" />
+      <item itemvalue="Django server.my_django_project" />
       <item itemvalue="Python._09协程gevent" />
       <item itemvalue="Python._01顺序表" />
       <item itemvalue="Python._01测试slots" />
       <item itemvalue="Python._02排序算法" />
       <item itemvalue="Python._04与数据库交互" />
+      <item itemvalue="Python tests.pytest in _05函数.py" />
     </list>
     <recent_temporary>
       <list>
@@ -801,9 +928,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19839142" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20911528" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -814,11 +941,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32907802" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32765958" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32624114" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.32624114" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49932975" weight="0.32624114" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32765958" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -828,6 +955,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -874,84 +1027,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_05数据结构与算法/_02排序算法.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3456">
-          <caret line="144" column="26" selection-start-line="144" selection-start-column="26" selection-end-line="144" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_06数据库MySQL/_01ubuntu系统下的Mysql安装.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_01ubuntu_command/vi_command">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="40" column="6" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_02python_basicknowledge/_01basic_variable.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3960">
-          <caret line="165" column="12" selection-start-line="165" selection-start-column="8" selection-end-line="165" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_06数据库MySQL/_03与python交互">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/pymysql/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="93" column="18" lean-forward="true" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/pymysql/connections.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="184" column="51" selection-start-line="184" selection-start-column="40" selection-end-line="184" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/pymysql/cursors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="150" column="8" selection-start-line="150" selection-start-column="8" selection-end-line="150" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_06数据库MySQL/_02mysql命令.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="194" column="38" lean-forward="true" selection-start-line="194" selection-start-column="38" selection-end-line="194" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_06数据库/PyMysqlHelper.py" />
-    <entry file="file://$PROJECT_DIR$/_06数据库MySQL/_05数据库工具类封装.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_06数据库MySQL/_04与数据库交互.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_01ubuntu_command/linux">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="449">
@@ -995,24 +1070,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../major/src/css/main.css" />
-    <entry file="file://$PROJECT_DIR$/_08前端开发/_01HTML基础.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="39" column="15" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/major_server/js/set_root.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_08前端开发/_02HTML标签.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="155" column="40" selection-start-line="155" selection-start-column="40" selection-end-line="155" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -1062,13 +1123,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="191" column="44" lean-forward="true" selection-start-line="191" selection-start-column="44" selection-end-line="191" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_08前端开发/_06javascript学习.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="65" column="7" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1147,10 +1201,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_08前端开发/_07vue-cli学习.html">
+    <entry file="file://$PROJECT_DIR$/_08前端开发/_07vue-cli学习.html" />
+    <entry file="file://$PROJECT_DIR$/_08前端开发/_06javascript学习.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state relative-caret-position="473">
+          <caret line="65" column="7" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../my_django_project/test1/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../my_django_project/test1/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../my_django_project/test1/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="87" selection-start-line="5" selection-start-column="87" selection-end-line="5" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../my_django_project/my_django_project/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="881">
+          <caret line="57" column="50" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../my_django_project/my_django_project/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../my_django_project/notes/01_django安装">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_08前端开发/_01HTML基础.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="39" column="15" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_08前端开发/_02HTML标签.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3720">
+          <caret line="155" column="40" selection-start-line="155" selection-start-column="40" selection-end-line="155" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../my_django_project/templates/test1/save_book.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../my_django_project/templates/test1/query_all.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../my_django_project/test1/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../my_django_project/test1/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
+          <folding>
+            <marker date="1543613066865" expanded="true" signature="294:299" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../my_django_project/templates/test1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../my_django_project/test1/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
         </state>
       </provider>
     </entry>
