@@ -23,6 +23,7 @@ db.stu.insert({name:'xiaowang',age:18})  即使没有集合stu，也会自己创
 db.stu.find()  返回文档集合
 db.stu.findOne().pretty()  查看一条数据并且格式化
 db.stu.find({条件文档})  返回文档集合
+db.stu.find({条件文档},{制定显示哪些属性字段})  返回文档集合
 db.stu.find().explain('executionStats') 性能分析：查看查询时间
 db.stu.ensureIndex({'name':1}) 新建name索引升序排列
 db.stu.ensureIndex({'name':1},{'unique':true}) 新建name唯一约束索引升序排列
@@ -30,8 +31,8 @@ db.stu.getIndexes() 查看stu集合的索引
 db.stu.dropIndexes('name')  删除stu集合的name索引
 
 更新
-db.集合名称.update(<query>,<update>,{multi:false})   文档结构会变化  三个参数都是字典：<query>是条件，相当于查询语句的where部分，<update>是更新结果，相当于update的set部分,后面是否多条修改的意思（默认只修改一条）
-db.集合名称.update(<query>,{$set:<update>},{multi:true})      只修改制定的字段值
+db.集合名称.update({<query>},{<update>},{multi:false})   文档结构会变化  三个参数都是字典：<query>是条件，相当于查询语句的where部分，<update>是更新结果，相当于update的set部分,后面是否多条修改的意思（默认只修改一条）
+db.集合名称.update({<query>},{{$set:<update>}},{multi:true})      只修改制定的字段值
 
 保存：
 db.集合名称.save(document)  如果文档id已经存在则修改，如果不存在则添加

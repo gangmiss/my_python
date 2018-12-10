@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d63f6deb-fc14-414e-aca1-8bd65fefb0e8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/_02python_basicknowledge/_29HTTP响应码" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_08前端开发/_07Jquery学习.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_08前端开发/js/jquery-1.12.4.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/my_python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my_python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_08前端开发/_07vue-cli学习.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02python_basicknowledge/_17异常处理.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02python_basicknowledge/_17异常处理.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02python_basicknowledge/_21列表推导式.py" beforeDir="false" afterPath="$PROJECT_DIR$/_02python_basicknowledge/_21列表推导式.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_04网络编程/_06TCP三次握手，四次挥手.py" beforeDir="false" afterPath="$PROJECT_DIR$/_04网络编程/_06TCP三次握手，四次挥手.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_06数据库MySQL/_01ubuntu系统下的Mysql安装.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_06数据库MySQL/_01ubuntu系统下的Mysql安装.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_07非关系型数据库MongoDB/_01简介" beforeDir="false" afterPath="$PROJECT_DIR$/_07非关系型数据库MongoDB/_01简介" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_08前端开发/_03CSS样式.html" beforeDir="false" afterPath="$PROJECT_DIR$/_08前端开发/_03CSS样式.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +33,7 @@
     <SUITE FILE_PATH="coverage/my_python$_greenlet.coverage" NAME="_协程greenlet Coverage Results" MODIFIED="1542198550272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_04网络编程" />
     <SUITE FILE_PATH="coverage/my_python$_16.coverage" NAME="_16单例模式 Coverage Results" MODIFIED="1541500393492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
     <SUITE FILE_PATH="coverage/my_python$_04TFTP_Server.coverage" NAME="_04TFTP_Server Coverage Results" MODIFIED="1541916029159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_04网络编程" />
+    <SUITE FILE_PATH="coverage/my_python$import_category_data.coverage" NAME="import_category_data Coverage Results" MODIFIED="1543980674037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../MxShop/db_tools" />
     <SUITE FILE_PATH="coverage/my_python$_01basic_variable.coverage" NAME="_01basic_variable Coverage Results" MODIFIED="1541131633182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
     <SUITE FILE_PATH="coverage/my_python$pytest_for__18_01sendmessage_test1.coverage" NAME="pytest for _18_01sendmessage.test1 Coverage Results" MODIFIED="1541506602183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
     <SUITE FILE_PATH="coverage/my_python$_create_mygame_window__1_.coverage" NAME="_create_mygame_window (1) Coverage Results" MODIFIED="1541589739748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge/_23飞机大战联系" />
@@ -42,12 +53,14 @@
     <SUITE FILE_PATH="coverage/my_python$_27property.coverage" NAME="_27property Coverage Results" MODIFIED="1541598481917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
     <SUITE FILE_PATH="coverage/my_python$_22set.coverage" NAME="_22集合set Coverage Results" MODIFIED="1541543508669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
     <SUITE FILE_PATH="coverage/my_python$_01slots.coverage" NAME="_01测试slots Coverage Results" MODIFIED="1542246992995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../MyStudyTest/com.gangmiss.test" />
+    <SUITE FILE_PATH="coverage/my_python$views.coverage" NAME="views Coverage Results" MODIFIED="1543998381931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../MxShop/apps/goods" />
     <SUITE FILE_PATH="coverage/my_python$_09_01threading.coverage" NAME="_09_01线程threading Coverage Results" MODIFIED="1541761215891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_03python高级编程" />
     <SUITE FILE_PATH="coverage/my_python$_09_03Lock.coverage" NAME="_09_03互斥锁Lock Coverage Results" MODIFIED="1541765044604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_03python高级编程" />
     <SUITE FILE_PATH="coverage/my_python$_03TFTP_Client.coverage" NAME="_03TFTP_Client Coverage Results" MODIFIED="1541917870899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_04网络编程" />
     <SUITE FILE_PATH="coverage/my_python$_14.coverage" NAME="_14类的设计思想 Coverage Results" MODIFIED="1541497697445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
     <SUITE FILE_PATH="coverage/my_python$_01Chat_Service.coverage" NAME="_01Chat_Service Coverage Results" MODIFIED="1541839001196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_04网络编程" />
     <SUITE FILE_PATH="coverage/my_python$_08File.coverage" NAME="_08File文件 Coverage Results" MODIFIED="1541214008341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
+    <SUITE FILE_PATH="coverage/my_python$import_goods_data.coverage" NAME="import_goods_data Coverage Results" MODIFIED="1543980988355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../MxShop/db_tools" />
     <SUITE FILE_PATH="coverage/my_python$_21.coverage" NAME="_21列表推导式 Coverage Results" MODIFIED="1541542844810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
     <SUITE FILE_PATH="coverage/my_python$_12.coverage" NAME="_12多态 Coverage Results" MODIFIED="1541490381417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
     <SUITE FILE_PATH="coverage/my_python$_15__new__.coverage" NAME="_15对象的生成过程__new__方法 Coverage Results" MODIFIED="1541498881986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_02python_basicknowledge" />
@@ -85,218 +98,113 @@
     <expand />
     <select />
   </component>
-  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" module-name="my_python" is-module-sdk="true">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+    <option name="myUseModuleSdk" value="true" />
+    <option name="myModuleName" value="my_python" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-981335263">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="12" />
-          <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.22" value="2" />
-          <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.25" value="2" />
-          <entry key="project.open.time.27" value="2" />
-          <entry key="project.open.time.38" value="1" />
-          <entry key="project.open.time.53" value="1" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="14" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="linux" value="3" />
-          <entry key="png" value="4" />
-          <entry key="py" value="137" />
-          <entry key="vi_command" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Image" value="4" />
-          <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="137" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="Python Console" value="54" />
-          <entry key="dummy" value="63" />
-          <entry key="linux" value="2783" />
-          <entry key="py" value="37562" />
-          <entry key="vi_command" value="880" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="3726" />
-          <entry key="Python" value="37616" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-484648534">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="16" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.16" value="2" />
-          <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.19" value="2" />
-          <entry key="project.open.time.3" value="3" />
-          <entry key="project.open.time.33" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.54" value="1" />
-          <entry key="project.opened" value="16" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="01_django安装" value="1185" />
-          <entry key="Django Console" value="6" />
-          <entry key="_01简介" value="2094" />
-          <entry key="_02mongodb高级用法" value="1328" />
-          <entry key="_03mongo与python交互" value="528" />
-          <entry key="_03mongo安全" value="167" />
-          <entry key="_03与python交互" value="47" />
-          <entry key="css" value="3471" />
-          <entry key="dummy" value="27" />
-          <entry key="html" value="18496" />
-          <entry key="js" value="748" />
-          <entry key="py" value="4994" />
-          <entry key="txt" value="410" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CSS" value="3471" />
-          <entry key="HTML" value="18496" />
-          <entry key="JavaScript" value="748" />
-          <entry key="PLAIN_TEXT" value="5258" />
-          <entry key="Python" value="5528" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages">
-        <counts>
-          <entry key="git.branch.merge" value="1" />
-          <entry key="git.branch.rebase" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="01_django安装" value="1" />
-          <entry key="_01简介" value="1" />
-          <entry key="_02mongodb高级用法" value="1" />
-          <entry key="_03mongo与python交互" value="1" />
-          <entry key="_03mongo安全" value="1" />
-          <entry key="_03与python交互" value="1" />
-          <entry key="babelrc" value="1" />
-          <entry key="css" value="8" />
-          <entry key="editorconfig" value="1" />
-          <entry key="eslintignore" value="1" />
-          <entry key="html" value="35" />
-          <entry key="jpg" value="1" />
-          <entry key="js" value="12" />
-          <entry key="json" value="1" />
-          <entry key="jsp" value="1" />
-          <entry key="linux" value="2" />
-          <entry key="md" value="1" />
-          <entry key="png" value="1" />
-          <entry key="py" value="23" />
-          <entry key="txt" value="1" />
-          <entry key="vi_command" value="1" />
-          <entry key="vue" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CSS" value="8" />
-          <entry key="HTML" value="35" />
-          <entry key="Image" value="2" />
-          <entry key="JSON" value="2" />
-          <entry key="JSP" value="1" />
-          <entry key="JavaScript" value="12" />
-          <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="13" />
-          <entry key="Python" value="24" />
-        </counts>
-      </usages-collector>
-    </session>
+  <component name="FavoritesManager">
+    <favorites_list name="my_python" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_08前端开发/_02HTML标签.html">
+        <entry file="file://$PROJECT_DIR$/_03python高级编程/_08_01进程间通讯Queue.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3720">
-              <caret line="155" column="40" selection-start-line="155" selection-start-column="40" selection-end-line="155" selection-end-column="40" />
+            <state relative-caret-position="240">
+              <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../my_django_project/templates/test1/save_book.html">
+        <entry file="file://$PROJECT_DIR$/_03python高级编程/_08_02多任务拷贝文件.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../my_django_project/templates/test1/query_all.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../my_django_project/test1/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+            <state relative-caret-position="320">
+              <caret line="48" column="27" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="27" />
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#0#54#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../my_django_project/test1/views.py">
+        <entry file="file://$PROJECT_DIR$/_03python高级编程/_08_03多任务拷贝纠正版.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
+            <state relative-caret-position="416">
+              <caret line="37" column="69" lean-forward="true" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="69" />
               <folding>
-                <marker date="1543613066865" expanded="true" signature="294:299" ph="..." />
+                <element signature="e#0#46#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_03python高级编程/_09_01线程threading.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_03python高级编程/_09_03互斥锁Lock.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_03python高级编程/_11生产者与消费者模式.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-304">
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_03python高级编程/_14GIL全局解释器锁.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_07非关系型数据库MongoDB/_01简介">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-198">
+              <caret line="52" column="43" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_07非关系型数据库MongoDB/_02mongodb高级用法">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1110" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../my_django_project/test1/models.py">
+        <entry file="file://$PROJECT_DIR$/_07非关系型数据库MongoDB/_03mongo与python交互">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../my_django_project/templates/test1/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-            </state>
+            <state relative-caret-position="-328" />
           </provider>
         </entry>
       </file>
@@ -305,10 +213,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -324,6 +232,15 @@
       <find>wrap_bottom</find>
       <find>process_title</find>
       <find>process</find>
+      <find>test_secrete_code</find>
+      <find>test_secrete</find>
+      <find>upload_pic2</find>
+      <find>u&quot;</find>
+      <find>ForeignKey</find>
+      <find>IndexAd</find>
+      <find>getGoodsList</find>
+      <find>DEFAULT_PA</find>
+      <find>mixins</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -333,69 +250,63 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_04网络编程/_04TFTP_Server.py" />
-        <option value="$PROJECT_DIR$/_04网络编程/_03TFTP_Client.py" />
-        <option value="$PROJECT_DIR$/_04网络编程/_05udp广播.py" />
-        <option value="$PROJECT_DIR$/_04网络编程/_06三次握手，四次挥手.py" />
-        <option value="$PROJECT_DIR$/_04网络编程/_06TCP三次握手，四次挥手.py" />
-        <option value="$PROJECT_DIR$/_04网络编程/_07网络的小知识点.py" />
-        <option value="$PROJECT_DIR$/_04网络编程/_05网络编程TCP.py" />
-        <option value="$PROJECT_DIR$/_04网络编程/_协程greenlet.py" />
-        <option value="$PROJECT_DIR$/_04网络编程/_09协程gevent.py" />
-        <option value="$PROJECT_DIR$/_02python_basicknowledge/_09OOP面向对象编程.py" />
-        <option value="$PROJECT_DIR$/../MyStudyTest/com.gangmiss.test/_01测试slots.py" />
-        <option value="$PROJECT_DIR$/_05数据结构与算法/_01顺序表.py" />
-        <option value="$PROJECT_DIR$/_05数据结构与算法/_01单链表的实现.py" />
+        <option value="$PROJECT_DIR$/../MxShop/apps/user_operation/adminx.py" />
+        <option value="$PROJECT_DIR$/../MxShop/extra_apps/xadmin/apps.py" />
+        <option value="$PROJECT_DIR$/../MxShop/extra_apps/xadmin/util.py" />
+        <option value="$PROJECT_DIR$/../MxShop/extra_apps/xadmin/models.py" />
+        <option value="$PROJECT_DIR$/../MxShop/extra_apps/xadmin/views/base.py" />
+        <option value="$PROJECT_DIR$/../MxShop/extra_apps/xadmin/views/form.py" />
+        <option value="$PROJECT_DIR$/../MxShop/extra_apps/xadmin/views/list.py" />
+        <option value="$PROJECT_DIR$/../MxShop/extra_apps/xadmin/views/website.py" />
+        <option value="$PROJECT_DIR$/../MxShop/extra_apps/xadmin/templatetags/xadmin_tags.py" />
+        <option value="$PROJECT_DIR$/../MxShop/extra_apps/xadmin/plugins/filters.py" />
+        <option value="$PROJECT_DIR$/../MxShop/extra_apps/xadmin/plugins/inline.py" />
+        <option value="$PROJECT_DIR$/../MxShop/extra_apps/xadmin/plugins/passwords.py" />
+        <option value="$PROJECT_DIR$/../MxShop/extra_apps/xadmin/plugins/bookmark.py" />
+        <option value="$PROJECT_DIR$/../MxShop/extra_apps/xadmin/plugins/comments.py" />
+        <option value="$PROJECT_DIR$/../MxShop/extra_apps/xadmin/plugins/details.py" />
+        <option value="$PROJECT_DIR$/../MxShop/extra_apps/xadmin/plugins/quickfilter.py" />
+        <option value="$PROJECT_DIR$/../MxShop/extra_apps/xadmin/plugins/relate.py" />
+        <option value="$PROJECT_DIR$/../MxShop/extra_apps/xadmin/plugins/topnav.py" />
+        <option value="$PROJECT_DIR$/../MxShop/extra_apps/xadmin/plugins/xversion.py" />
+        <option value="$PROJECT_DIR$/../MxShop/extra_apps/xadmin/plugins/language.py" />
+        <option value="$PROJECT_DIR$/../MxShop/extra_apps/xadmin/views/dashboard.py" />
+        <option value="$PROJECT_DIR$/../MxShop/extra_apps/xadmin/plugins/sortablelist.py" />
+        <option value="$PROJECT_DIR$/../MxShop/apps/goods/adminx.py" />
+        <option value="$PROJECT_DIR$/../MxShop/apps/trade/models.py" />
+        <option value="$PROJECT_DIR$/../MxShop/apps/user_operation/models.py" />
+        <option value="$PROJECT_DIR$/../MxShop/db_tools/import_goods_data.py" />
+        <option value="$PROJECT_DIR$/../my_django_project/notes/00_错误收集" />
+        <option value="$PROJECT_DIR$/../MxShop/apps/goods/views_base.py" />
+        <option value="$PROJECT_DIR$/../MxShop/manage.py" />
+        <option value="$PROJECT_DIR$/../MxShop/apps/goods/goodSerializer.py" />
+        <option value="$PROJECT_DIR$/../MxShop/apps/goods/filters.py" />
+        <option value="$PROJECT_DIR$/../MxShop/apps/goods/models.py" />
+        <option value="$PROJECT_DIR$/../MxShop/apps/ModelManagers.py" />
+        <option value="$PROJECT_DIR$/../MxShop/apps/goods/urls.py" />
+        <option value="$PROJECT_DIR$/../MxShop/apps/goods/GoodsSerializer.py" />
+        <option value="$PROJECT_DIR$/../MxShop/db_tools/import_category_data.py" />
+        <option value="$PROJECT_DIR$/../MxShop/notes/01_django rest framework" />
+        <option value="$PROJECT_DIR$/../my_django_project/notes/04_mysql连接" />
+        <option value="$PROJECT_DIR$/../my_django_project/notes/02_模型models" />
+        <option value="$PROJECT_DIR$/../MxShop/apps/goods/Goodsfilters.py" />
+        <option value="$PROJECT_DIR$/../MxShop/apps/goods/views.py" />
+        <option value="$PROJECT_DIR$/../MxShop/MxShop/urls.py" />
+        <option value="$PROJECT_DIR$/../MxShop/apps/users/views.py" />
+        <option value="$PROJECT_DIR$/../MxShop/MxShop/settings.py" />
+        <option value="$PROJECT_DIR$/_02python_basicknowledge/_29HTTP响应码" />
+        <option value="$PROJECT_DIR$/_02python_basicknowledge/_17异常处理.py" />
+        <option value="$PROJECT_DIR$/_02python_basicknowledge/_21列表推导式.py" />
         <option value="$PROJECT_DIR$/_05数据结构与算法/_02排序算法.py" />
-        <option value="$PROJECT_DIR$/_06数据库/Mysql.py" />
-        <option value="$PROJECT_DIR$/_06数据库/_02mysql命令.py" />
-        <option value="$PROJECT_DIR$/_06数据库/_01ubuntu系统下的Mysql安装.txt" />
-        <option value="$PROJECT_DIR$/_06数据库/_03与python交互" />
-        <option value="$PROJECT_DIR$/_06数据库/_02mysql命令.txt" />
-        <option value="$PROJECT_DIR$/_06数据库/_05数据库工具类封装.py" />
-        <option value="$PROJECT_DIR$/_06数据库/PyMysqlHelper.py" />
-        <option value="$PROJECT_DIR$/_06数据库/_04与数据库交互.py" />
+        <option value="$PROJECT_DIR$/_04网络编程/_06TCP三次握手，四次挥手.py" />
+        <option value="$PROJECT_DIR$/_06数据库MySQL/_01ubuntu系统下的Mysql安装.txt" />
         <option value="$PROJECT_DIR$/_07非关系型数据库MongoDB/_01简介" />
-        <option value="$PROJECT_DIR$/_07非关系型数据库MongoDB/_03mongo安全" />
-        <option value="$PROJECT_DIR$/_07非关系型数据库MongoDB/_02mongodb高级用法" />
-        <option value="$PROJECT_DIR$/_07非关系型数据库MongoDB/_03mongo与python交互" />
-        <option value="$PROJECT_DIR$/_08前端开发/_01HTML基础.html" />
-        <option value="$PROJECT_DIR$/_08前端开发/css/main.css" />
-        <option value="$PROJECT_DIR$/_08前端开发/_02HTML标签.html" />
-        <option value="$PROJECT_DIR$/major_server/js/set_root.js" />
-        <option value="$PROJECT_DIR$/_08前端开发/_04盒子模型样式.html" />
-        <option value="$PROJECT_DIR$/major_server/css/reset.css" />
-        <option value="$PROJECT_DIR$/major_server/css/main.css" />
-        <option value="$PROJECT_DIR$/_08前端开发/_05移动端开发.html" />
-        <option value="$PROJECT_DIR$/major_server/index.html" />
-        <option value="$PROJECT_DIR$/_08前端开发/_03CSS样式.html" />
-        <option value="$PROJECT_DIR$/_08前端开发/_06javascript学习.js" />
-        <option value="$PROJECT_DIR$/_08前端开发/js/hello.js" />
-        <option value="$PROJECT_DIR$/_08前端开发/_06javascript学习.html" />
-        <option value="$PROJECT_DIR$/_08前端开发/_07vue-cli学习.html" />
-        <option value="$PROJECT_DIR$/../my_django_project/notes/01_django安装" />
-        <option value="$PROJECT_DIR$/../my_django_project/test1/admin.py" />
-        <option value="$PROJECT_DIR$/../my_django_project/my_django_project/settings.py" />
-        <option value="$PROJECT_DIR$/../my_django_project/my_django_project/urls.py" />
-        <option value="$PROJECT_DIR$/../my_django_project/templates/test1/save.html" />
-        <option value="$PROJECT_DIR$/../my_django_project/templates/test1/query_all.html" />
-        <option value="$PROJECT_DIR$/../my_django_project/templates/test1/save_book.html" />
-        <option value="$PROJECT_DIR$/../my_django_project/templates/test1/index.html" />
-        <option value="$PROJECT_DIR$/../my_django_project/test1/views.py" />
-        <option value="$PROJECT_DIR$/../my_django_project/test1/urls.py" />
-        <option value="$PROJECT_DIR$/../my_django_project/test1/models.py" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="140" />
-    <option name="width" value="1065" />
+    <option name="x" value="1005" />
+    <option name="width" value="904" />
     <option name="height" value="1100" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -406,47 +317,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="my_python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my_python" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my_python" type="462c0819:PsiDirectoryNode" />
-              <item name="_08前端开发" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my_django_project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my_django_project" type="462c0819:PsiDirectoryNode" />
-              <item name="my_django_project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my_django_project" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my_django_project" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="test1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my_python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my_django_project" type="462c0819:PsiDirectoryNode" />
-              <item name="test1" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -458,22 +328,37 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="TODO_SCOPE" value="Project Files" />
+    <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="D:/WebProjects/vue_studty/majorservice" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="my_python" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="my_python" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\PythonProjects\my_django_project\test1" />
-      <recent name="D:\PythonProjects\my_python\_08前端开发\images" />
-      <recent name="D:\PythonProjects\my_python\major_server\images" />
-      <recent name="D:\PythonProjects\my_python" />
-      <recent name="C:\Users\Administrator\PycharmProjects\my_python\_04网络编程" />
+      <recent name="D:\PythonProjects\MxShop\apps\goods" />
+      <recent name="D:\PythonProjects\MxShop\db_tools" />
+      <recent name="D:\PythonProjects\MxShop\media" />
+      <recent name="D:\PythonProjects\MxShop\apps\users" />
+      <recent name="D:\PythonProjects\MxShop\apps\user_operation" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PythonProjects\MxShop\apps" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -488,7 +373,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Django server.my_django_project">
+  <component name="RunManager" selected="Django server.MxShop">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="majorservice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -535,28 +420,6 @@
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_01顺序表" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="my_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_05数据结构与算法" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Administrator\PycharmProjects\my_python\_05数据结构与算法\_01单链表的实现.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="_01单链表的实现" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -571,28 +434,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_05数据结构与算法/_01单链表的实现.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="_01测试slots" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MyStudyTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../MyStudyTest/com.gangmiss.test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../MyStudyTest/com.gangmiss.test/_01测试slots.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -645,28 +486,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_09协程gevent" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="my_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_04网络编程" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_04网络编程/_09协程gevent.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="majorservice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -689,14 +508,105 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="my_django_project" type="Python.DjangoServer" factoryName="Django server">
-      <module name="my_django_project" />
+    <configuration name="import_category_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MxShop" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../MxShop/db_tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../MxShop/db_tools/import_category_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="import_goods_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MxShop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../MxShop/db_tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../MxShop/db_tools/import_goods_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MxShop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../MxShop/apps/goods" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../MxShop/apps/goods/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MxShop" type="Python.DjangoServer" factoryName="Django server">
+      <module name="MxShop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="MxShop.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="my_django_project" type="Python.DjangoServer" factoryName="Django server" show_console_on_std_err="true" show_console_on_std_out="true">
+      <module name="my_django_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="my_django_project.settings" />
+      </envs>
+      <option name="SDK_HOME" value="D:\PythonProjects\my_django_project\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -836,20 +746,22 @@
     </configuration>
     <list>
       <item itemvalue="Django server.my_django_project" />
-      <item itemvalue="Python._09协程gevent" />
-      <item itemvalue="Python._01顺序表" />
-      <item itemvalue="Python._01测试slots" />
+      <item itemvalue="Django server.MxShop" />
+      <item itemvalue="Python._01单链表的实现" />
       <item itemvalue="Python._02排序算法" />
       <item itemvalue="Python._04与数据库交互" />
+      <item itemvalue="Python.import_category_data" />
+      <item itemvalue="Python.import_goods_data" />
+      <item itemvalue="Python.views" />
       <item itemvalue="Python tests.pytest in _05函数.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.views" />
+        <item itemvalue="Python.import_goods_data" />
+        <item itemvalue="Python.import_category_data" />
         <item itemvalue="Python._04与数据库交互" />
         <item itemvalue="Python._02排序算法" />
-        <item itemvalue="Python._01顺序表" />
-        <item itemvalue="Python._01测试slots" />
-        <item itemvalue="Python._09协程gevent" />
       </list>
     </recent_temporary>
   </component>
@@ -863,6 +775,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541031341716</updated>
+      <workItem from="1543635789652" duration="13119000" />
+      <workItem from="1543649799287" duration="24134000" />
+      <workItem from="1543710241882" duration="21704000" />
+      <workItem from="1543732168075" duration="13558000" />
+      <workItem from="1543752134813" duration="7459000" />
+      <workItem from="1543760454808" duration="8407000" />
+      <workItem from="1543798907181" duration="17773000" />
+      <workItem from="1543865879105" duration="1207000" />
+      <workItem from="1543895777070" duration="6888000" />
+      <workItem from="1543920743159" duration="21543000" />
+      <workItem from="1543976254790" duration="26250000" />
+      <workItem from="1544010649766" duration="19380000" />
+      <workItem from="1544062676054" duration="3055000" />
+      <workItem from="1544084452410" duration="15452000" />
+      <workItem from="1544322980967" duration="15247000" />
     </task>
     <task id="LOCAL-00001" summary="python学习">
       <created>1542943401811</created>
@@ -892,7 +819,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543492491118</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="前端学习3">
+      <created>1543635957288</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1543635957288</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -918,6 +852,9 @@
       <configuration name="pytest for _18_01sendmessage.test1" configurationId="tests" />
     </history-entry>
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="215176000" />
+  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -930,22 +867,23 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20911528" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49440715" visible="true" weight="0.16621985" />
+      <window_info id="Structure" order="1" sideWeight="0.5055928" side_tool="true" weight="0.20375335" />
+      <window_info id="Favorites" order="2" sideWeight="0.5042493" side_tool="true" weight="0.20375335" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3460993" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32907802" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.32624114" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49932975" weight="0.32624114" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32765958" />
+      <window_info anchor="bottom" x="22" y="296" width="1492" height="232" id="Find" order="1" show_stripe_button="false" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3654391" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" sideWeight="0.49932975" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32577905" />
+      <window_info anchor="bottom" id="Database Changes" order="8" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067025" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49932975" side_tool="true" weight="0.32719547" />
+      <window_info anchor="bottom" auto_hide="true" x="550" y="335" width="883" height="328" id="Terminal" order="11" sideWeight="0.49932975" weight="0.35410765" />
+      <window_info anchor="bottom" id="manage.py@MxShop" order="12" weight="0.32577905" />
+      <window_info anchor="bottom" id="Debug" order="13" weight="0.39943343" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -981,9 +919,20 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="python学习" />
@@ -993,7 +942,8 @@
     <MESSAGE value="数据库学习5" />
     <MESSAGE value="mongo" />
     <MESSAGE value="前端学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="前端学习" />
+    <MESSAGE value="前端学习3" />
+    <option name="LAST_COMMIT_MESSAGE" value="前端学习3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1024,290 +974,397 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_01ubuntu_command/linux">
+    <entry file="file://$PROJECT_DIR$/../MxShop/db_tools/import_category_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="73" column="9" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="9" />
+        <state relative-caret-position="768">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_07非关系型数据库MongoDB/_01简介">
+    <entry file="file://$PROJECT_DIR$/../MxShop/db_tools/data/category_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        <state relative-caret-position="216">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_07非关系型数据库MongoDB/_02mongodb高级用法">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1584">
-          <caret line="66" column="48" selection-start-line="66" selection-start-column="48" selection-end-line="66" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_07非关系型数据库MongoDB/_03mongo与python交互">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_04网络编程/_01Chat_Service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="47" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_08前端开发/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../major/src/css/main.css" />
-    <entry file="file://$PROJECT_DIR$/major_server/js/set_root.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/视频学习/Notes/13.web项目/studentManager/WebRoot/ShowDetialsServlet.jsp">
+    <entry file="file://$PROJECT_DIR$/../my_django_project/test1/views.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/major_server/images/process_down_img3.jpg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/../my_django_project/notes/03_Session对象">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/_08前端开发/_05移动端开发.html">
+    <entry file="file://$PROJECT_DIR$/../my_django_project/notes/04_mysql连接">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="47" column="35" lean-forward="true" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+        <state relative-caret-position="360">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/major_server/css/main.css">
+    <entry file="file://$PROJECT_DIR$/../MxShop/MxShop/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="127" column="21" selection-start-line="127" selection-start-column="21" selection-end-line="127" selection-end-column="21" />
+        <state relative-caret-position="128">
+          <caret line="160" selection-start-line="159" selection-end-line="160" />
+          <folding>
+            <element signature="e#307#316#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/major_server/css/reset.css">
+    <entry file="file://$PROJECT_DIR$/../MxShop/apps/users/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="68" lean-forward="true" selection-start-column="68" selection-end-column="68" />
+        <state relative-caret-position="48">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/major_server/index.html">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/rest_framework/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MxShop/apps/goods/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../my_django_project/notes/02_模型models">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="68" column="82" selection-start-line="68" selection-start-column="82" selection-end-line="68" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_02python_basicknowledge/_16单例模式.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
-          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_08前端开发/_04盒子模型样式.html">
+    <entry file="file://$PROJECT_DIR$/_02python_basicknowledge/_29HTTP响应码">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3528">
-          <caret line="147" column="115" selection-start-line="147" selection-start-column="115" selection-end-line="147" selection-end-column="115" />
+        <state relative-caret-position="1128">
+          <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_08前端开发/_06javascript学习.js" />
-    <entry file="file://$PROJECT_DIR$/_08前端开发/_03CSS样式.html">
+    <entry file="file://$PROJECT_DIR$/_04网络编程/_08协程greenlet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="191" column="44" lean-forward="true" selection-start-line="191" selection-start-column="44" selection-end-line="191" selection-end-column="44" />
+        <state relative-caret-position="144">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_08前端开发/js/hello.js">
+    <entry file="file://$PROJECT_DIR$/_04网络编程/_09协程gevent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        <state relative-caret-position="598">
+          <caret line="31" column="52" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="52" />
+          <folding>
+            <element signature="e#224#237#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/WebProjects/vue_studty/majorservice/.eslintignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/WebProjects/vue_studty/majorservice/.editorconfig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/WebProjects/vue_studty/majorservice/.babelrc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/WebProjects/vue_studty/majorservice/.eslintrc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144" />
-      </provider>
-    </entry>
-    <entry file="file://D:/WebProjects/vue_studty/majorservice/.postcssrc.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/WebProjects/vue_studty/majorservice/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1241" />
-      </provider>
-    </entry>
-    <entry file="file://D:/WebProjects/vue_studty/majorservice/src/assets/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://D:/WebProjects/vue_studty/majorservice/config/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/WebProjects/vue_studty/majorservice/src/components/HelloWorld.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/WebProjects/vue_studty/majorservice/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/WebProjects/vue_studty/majorservice/src/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/WebProjects/vue_studty/majorservice/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/WebProjects/vue_studty/majorservice/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/WebProjects/vue_studty/majorservice/config/dev.env.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/WebProjects/vue_studty/majorservice/config/prod.env.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/WebProjects/vue_studty/majorservice/build/utils.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/WebProjects/vue_studty/majorservice/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_08前端开发/_07vue-cli学习.html" />
-    <entry file="file://$PROJECT_DIR$/_08前端开发/_06javascript学习.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="65" column="7" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../my_django_project/test1/migrations/0001_initial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../my_django_project/test1/migrations/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../my_django_project/test1/admin.py">
+    <entry file="file://$PROJECT_DIR$/_02python_basicknowledge/_28生成器.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="5" column="87" selection-start-line="5" selection-start-column="87" selection-end-line="5" selection-end-column="87" />
+          <caret line="17" column="56" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../my_django_project/my_django_project/settings.py">
+    <entry file="file://$PROJECT_DIR$/_02python_basicknowledge/_21列表推导式.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="881">
-          <caret line="57" column="50" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
+        <state relative-caret-position="456">
+          <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../my_django_project/my_django_project/urls.py">
+    <entry file="file://$PROJECT_DIR$/_02python_basicknowledge/_08File文件.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        <state relative-caret-position="216">
+          <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_01ubuntu_command/linux">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="55" column="53" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_02python_basicknowledge/_17异常处理.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_05数据结构与算法/_02排序算法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2280">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_04网络编程/_06TCP三次握手，四次挥手.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_06数据库MySQL/_02mysql命令.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_06数据库MySQL/_01ubuntu系统下的Mysql安装.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../my_django_project/notes/06_模板template">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../my_django_project/notes/05_视图views">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../my_django_project/notes/07_django高级用法">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3582" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MxShop/notes/01_django rest framework">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MxShop/apps/goods/Goodsfilters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MxShop/apps/goods/GoodsSerializer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="52" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MxShop/apps/goods/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="111" column="72" selection-start-line="111" selection-start-column="72" selection-end-line="111" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+            <marker date="1544242235856" expanded="true" signature="1650:1772" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../my_django_project/notes/01_django安装">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
+        <state relative-caret-position="-144" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../my_django_project/test1/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../my_django_project/test1/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_08前端开发/_01HTML基础.html">
+    <entry file="file://$PROJECT_DIR$/../MxShop/MxShop/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="39" column="15" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="15" />
+        <state relative-caret-position="680">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+          <folding>
+            <element signature="e#630#662#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_08前端开发/_02HTML标签.html">
+    <entry file="file://$PROJECT_DIR$/../MxShop/apps/goods/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3720">
-          <caret line="155" column="40" selection-start-line="155" selection-start-column="40" selection-end-line="155" selection-end-column="40" />
+        <state relative-caret-position="392">
+          <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+          <folding>
+            <element signature="e#630#662#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../my_django_project/templates/test1/save_book.html">
+    <entry file="file://$PROJECT_DIR$/_03python高级编程/_01迭代器，装饰器，生成器.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="22" />
+        <state relative-caret-position="336">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../my_django_project/templates/test1/query_all.html">
+    <entry file="file://$PROJECT_DIR$/_03python高级编程/_02闭包.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        <state relative-caret-position="464">
+          <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../my_django_project/test1/urls.py">
+    <entry file="file://$PROJECT_DIR$/_03python高级编程/_05pdb调试.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_03python高级编程/_06_01多任务(多进程).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        <state relative-caret-position="-726">
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_03python高级编程/_06_02多任务通用跨平台.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_03python高级编程/_07_01进程池Pool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="24" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../my_django_project/test1/views.py">
+    <entry file="file://$PROJECT_DIR$/_03python高级编程/_08_01进程间通讯Queue.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
+        <state relative-caret-position="240">
+          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_03python高级编程/_08_02多任务拷贝文件.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="48" column="27" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="27" />
           <folding>
-            <marker date="1543613066865" expanded="true" signature="294:299" ph="..." />
+            <element signature="e#0#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../my_django_project/templates/test1/index.html">
+    <entry file="file://$PROJECT_DIR$/_03python高级编程/_08_03多任务拷贝纠正版.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        <state relative-caret-position="416">
+          <caret line="37" column="69" lean-forward="true" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../my_django_project/test1/models.py">
+    <entry file="file://$PROJECT_DIR$/_03python高级编程/_09_01线程threading.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        <state relative-caret-position="56">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_03python高级编程/_09_03互斥锁Lock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_03python高级编程/_11生产者与消费者模式.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-304">
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_03python高级编程/_14GIL全局解释器锁.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_07非关系型数据库MongoDB/_01简介">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="52" column="43" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_07非关系型数据库MongoDB/_02mongodb高级用法">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1110" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_07非关系型数据库MongoDB/_03mongo与python交互">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-328" />
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

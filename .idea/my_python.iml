@@ -9,6 +9,7 @@
     <orderEntry type="module" module-name="majorserver" />
     <orderEntry type="module" module-name="major" />
     <orderEntry type="module" module-name="my_django_project" />
+    <orderEntry type="module" module-name="MxShop" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="pytest" />

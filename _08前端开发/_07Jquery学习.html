@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+
+    <script type="text/javascript">
+        //闭包:使用外部参数和内部参数,返回内部函数引用
+        var aa=(function (n) {
+            var b=3;
+            function bb() {
+                alert(n);
+                alert(b);
+            }
+            return bb;
+        })(2);
+        aa();
+
+        <!--单体-->
+        var tom={
+            name:"tome",
+            age:15,
+            showName:function () {
+                return this.name
+            },
+            showAge:function () {
+                return this.age
+            }
+        };
+    //    工厂模式：
+        function person(name,age) {
+            var o=new Object();
+            o.name=name;
+            o.age=age;
+            o.showName=function () {
+                return o.name;
+            }
+            o.showAge=function () {
+                return o.age;
+            }
+            return o;
+        }
+
+    //    构造函数方法：每个对象都有自己的属性和方法
+        function person(name,age) {
+            this.name=name;
+            this.age=age;
+            this.showName=function () {
+                return this.name;
+            }
+            this.showAge=function () {
+                return this.age;
+            }
+        }
+        var tome=new person("tome",18);
+        tome.showName()
+
+    //    原型模式：共用方法，解决了多个对象方法定义的资源浪费
+        function Person(name,age) {
+            this.name=name;
+            this.age=age;
+        }
+        Person.prototype.showName=function () {
+            return this.name;
+        }
+        Person.prototype.showAge=function () {
+            return this.age;
+        }
+        var tim=new Person("tim",18);
+        tim.showName()
+
+    //    类的继承：
+        /*person.call("abc","tim",18)*/
+        /*person.apply("abc",["tim",18])*/
+        //属性继承
+        function Female(name,age,job) {
+            Person.call(name,age);
+            ths.job=job;
+        }
+    //    方法继承：
+        Female.prototype=new Person();
+        Female.prototype.showName=function () {
+            return "我是"+this.name
+        };
+
+        /*window.onload=function () {
+            var div=document.getElementById('box')
+            alert(div.innerHTML)
+        }*/
+
+        /*$(document).ready(function () {
+            var $div=$("#box")
+            alert("jquery")
+        })*/
+
+        //程序的入口
+        $(function () {
+            /*
+            * $('div').has('p') 所有包含p标签的div
+            * $('div').filter('.myclass') 选择class等于myclass的div标签
+            *  $('div').first() 选择第一个div标签
+            *   $('div').eq(5) 选择第6个div标签
+            * */
+            var $box=$('#box');
+            var $box2=$('.box2');
+            var $li=$('.list li')
+
+            $box.css({
+                color:'red',
+                width:200,
+                height:300
+            });
+
+        //    绑定事件：
+            $('.list li').onclick(function () {
+            //    内部的this指的是原生对象
+
+            //    使用jquery对象用$(this)
+                $(this).addClass('cur').siblings().removeClass('cur');
+                //jquery存储了索引值 ：$(this).index()
+                $('#contents div ').eq($(this).index()).addClass('active').siblings().removeClass('active');
+            });
+        })
+
+
+    </script>
+</head>
+<body>
+    <div id="box"><span>我们是jquery</span></div>
+    <div class="box2"><span>我们是jquery</span></div>
+    <ul class="list">
+        <li>1</li>
+        <li>3</li>
+        <li>5</li>
+        <li>7</li>
+    </ul>
+</body>
+</html>

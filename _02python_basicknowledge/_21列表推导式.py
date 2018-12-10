@@ -12,3 +12,10 @@ print(a)
 
 b=[(i,j) for i in range(3) for j in range(4)]
 print(b)
+
+
+
+"""
+列表推导式，生成器表达式，字典推导式，集合推导式：
+https://blog.csdn.net/zgcr654321/article/details/82992498
+"""
