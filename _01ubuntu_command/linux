@@ -26,6 +26,7 @@ sodu find ./ -size +2G:查看超过2G的文件
 二.新建文件
 touch yyy.txt：新建一个yyy.txt的文件
 mkdir yyy:新建一个yyy文件夹
+rm -rf a:删除a文件夹
 rm yyy.txt:删除yyy文件
 mkdir a/b/c/d/e -p:新建e文件夹
 rmdir b:删除空的b文件夹

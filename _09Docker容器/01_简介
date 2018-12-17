@@ -1,0 +1,166 @@
+docker：
+开发，容纳，运行应用程序的平台
+在容器中安全的隔离运行应用程序
+
+docker引擎：cs架构的程序
+1.server：
+    长时间运行的守护程序
+2.rest api
+3.CLIENT：命令行
+
+docker对象：
+    images镜像：类似于虚拟机里面的操作系统
+    containers容器：把镜像加载到容器当中，是镜像的一个实例对象
+    networks网络：
+    data volumes：数据持久化存储
+
+docker daemon：
+    docker的守护进程运行在一个主机之上，用户不需要直接跟主机交互，而是通过docker客户端client跟他交互
+
+docker client：
+    接受用户指令并和守护进程进行通信
+
+docker images：
+    镜像为只读模板，一个镜像可以包括Ubuntu，Apache，web应用程序，用于创建docker容器，
+docker registries：
+    注册表，包含镜像的一堆库
+docker containers：
+    通过镜像创建出来的容器实例，可以运行，启动，停止，移动和删除，单独的安全运行平台，容器中运行的是docker组件，
+    里面由操作系统，文件或文件夹和数据构成（意思是一个镜像images，和一层读写层组合而成）
+
+docker run -i -t ubuntu /bin/bash
+    客户端命令会告诉守护进程docker daemon去运行一个容器container
+
+在Linux系统下(Ubuntu)安装docker引擎：
+    1.uname -r 查看kernel内核版本，至少在3.10以上
+    2.更新apt软件源：
+        1.sudo apt-get remove docker docker-engine docker.io 卸载之前的docker
+        2.sudo apt-get update 更新apt
+        3.安装一些包让apt能够在https上使用仓库
+            sudo apt-get install \
+            apt-transport-https \
+            ca-certificates \
+            curl \
+            software-properties-common
+    3.安装GPG key
+        apt-key adv --keyserver keyserver.ubuntu.com --recv-keys F76221572C52609D
+    4.sudo apt-key fingerprint 2C52609D
+    5.
+        sudo add-apt-repository \
+       "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+       $(lsb_release -cs) \
+       stable"
+    6.配置docker软件源（/etc/apt/sources.list.d/docker.list）
+        deb https://apt.dockerproject.org/repo ubuntu-precise main
+    7.更新apt
+        sudo apt-get update
+    8.丢弃原有的docker软件源：
+        sudo apt-get purge lxc-docker
+    9.安装docker
+        sudo apt-get install docker-engine
+    10.推荐安装linux-image-extra镜像
+        sudo apt-get install linux-image-extra-$(uname -r)
+    11.启动服务
+        sudo service docker start
+    12.验证：
+        sudo docker run hello-world
+            解析：sudo获取管理员权限
+                    docker：告知os使用docker命令
+                    run：子命令，创建运行容器
+                    hello-world:加载哪个镜像系统，如果本地没有这个镜像，就会从Docker Hub上下载镜像
+        也可以从Hub下载镜像sudo docker run docker/whalesay cowsay boo
+    13.如果要配置dns服务器：
+        1.sudo vi /etc/default/docker
+            文件里面添加自己的dns地址
+                DOCKER_OPTS="--DNS 8.8.8.8 --DNS 127.0.0.1"
+        2或者sudo vi /etc/NetworkManager/NetworkManager.conf
+        增加dns=dnsmasq
+
+    14.重启服务
+        sudo restart network-manager
+        sudo restart docker
+    15.配置docker开机自启动
+        sudo systemctl enable docker
+    16.升级docker
+        sudo apt-get upgrade docker-engine
+    17.卸载docker
+        sudo apt-get purge docker-engine
+
+    18.查看运行的容器：
+        sudo docker ps -a
+    19.查看本地镜像：
+        sudo docker images
+
+    20.构建自己的镜像文件：
+        1.
+            sudo mkdir mydockerbuild
+            cd mydockerbuild
+            vi Dockerfile
+                from docker/whalesay:latest
+                run apt-get -y update && apt-get install -y fortunes
+                cmd /usr/games/fortune -a | cowsay
+
+                或者用这个内容：
+                    FROM docker/whalesay:latest
+                    # install cowsay, and move the "default.cow" out of the way so we can overwrite it with "docker.cow"
+                    RUN apt-get update && apt-get install -y cowsay --no-install-recommends && rm -rf /var/lib/apt/lists/* \
+                        && mv /usr/share/cowsay/cows/default.cow /usr/share/cowsay/cows/orig-default.cow
+                    # "cowsay" installs to /usr/games
+                    ENV PATH $PATH:/usr/games
+
+                    COPY docker.cow /usr/share/cowsay/cows/
+                    RUN ln -sv /usr/share/cowsay/cows/docker.cow /usr/share/cowsay/cows/default.cow
+
+                    CMD ["cowsay"]
+        2.进入mydockerbuild文件夹下从Dockerfile构建镜像文件
+            sudo docker build -t docker-whale .
+
+
+    21.拉取镜像：
+        docker pull training/webapp
+    22.标记关联账号与镜像：docker tag 4ab4c602aa5e gangmiss/hello-world:latest
+    23.登录：sudo docker login --username=gangmiss --email=2284101499@qq.com
+    24.推送镜像：sudo docker push gangmiss/hello-world
+    25.删除本地镜像：sudo docker rmi -f 4ab4c602aa5e 或者sudo docker rmi -f hello-world
+    26.sudo docker查看所有命令：
+        rm：删除容器
+        rmi：删除镜像
+    27.查看docker进程：docker ps
+    28.docker操作：
+        1.输出hello world：sudo docker run ubuntu /bin/echo "hello world"
+    29.容器运行时间和命令运行时间相同，即命令结束，容器也停止了
+    30.运行交互式容器：
+        sudo docker run -t -i ubuntu /bin/bash 之后就进入到交互式容器中了（即一个虚拟机）,退出用exit或者ctrl+D
+    31.用容器启动一个守护进程：
+        sudo docker run -d ubuntu /bin/sh -c "while true;do echo hello world;sleep 1;done"
+    32.查看容器日志：
+        sudo docker ps -a
+        sudo docker logs container_name_or_id
+    33.停止容器：
+        sudo docker stop container_id_or_name
+    23.删除容器：
+        sudo docker rm container_id_or_name
+    24.开始启动容器：
+        sudo docker start container_id
+    25.开始一个应用：
+        sudo docker run -d(后台运行的意思) -P(大写端口映射所有的暴露端口) training/webapp python app.py
+        sudo docker run -d(后台运行的意思) -p(小写把80端口映射到5000端口) 80:5000 training/webapp python app.py
+    26.docker-machine ip my
+    27.查看容器列表：docker ps -l
+    28.修改虚拟机的5000端口映射到本地50端口：docker port container_id 50
+    29.查看web程序的log：docker logs -f container_id
+    30.查看web应用程序的进程：docker top container_id
+    31.检查web应用程序：docker inspect container_id
+    32.提交变化给镜像，本地会产生一个新的镜像：
+        docker commit -m "added a json file" -a "gangmiss" container_id hello-world:v2
+    33.创建自己的镜像：
+        1.创建镜像文件：
+            mkdir my-image
+            cd my-image
+            vi Dockerfile
+            FROM ubuntu:16.04
+            MAINTAINER gangmiss <2284101499@qq.com>
+            RUN apt-get update && apt-get install -y ruby ruby-dev
+            RUN gem install my-image
+        2.构建镜像：
+            sudo docker build -t my-image:v2

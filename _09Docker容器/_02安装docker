@@ -1,0 +1,84 @@
+一、安装Docker的先决条件
+1、运行64位CPU构架的计算机（目前只能是x86_64和amd64），请注意，Docker目前不支持32位CPU。
+2、运行Linux 3.8或更高版本内核。一些老版本的2.6.x或其后的内核也能够运行Docker，但运行结果会有很大的不同。而且，如果你需要就老版本内核寻求帮助时，通常大家会建议你升级到更高版本的内核。
+3、内核必须支持一种适合的存储驱动（storage driver），例如：
+Device Manage；AUFS；vfs；btrfs；ZFS
+默认存储驱动通常是Device Mapper或AUFS
+4、内核必须支持并开启cgroup和命名空间（namespace）功能。
+
+
+
+检查Ubuntu内核版本
+
+[zhaojq@virtual-machine]# uname -a
+    Linux ubuntu 4.4.0-21-generic #37-Ubuntu SMP Mon Apr 18 18:33:37 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux
+
+
+
+检查Device Mapper
+
+[zhaojq@virtual-machine]# ls -l /sys/class/misc/device-mapper 
+    lrwxrwxrwx 1 root root 0 Jun 20 22:42 /sys/class/misc/device-mapper -> ../../devices/virtual/misc/device-mapper
+
+
+
+二、安装Docker
+添加Docker的ATP仓库
+[zhaojq@virtual-machine]# sudo sh -c "echo deb https://apt.dockerproject.org/repo ubuntu-trusty main > /etc/apt/sources.list.d/docker.list"
+
+检测curl命令是否安装
+[zhaojq@virtual-machine]# whereis curl
+    curl: /usr/bin/curl /usr/share/man/man1/curl.1.gz
+
+增加Docker仓库的新GPG密钥
+[zhaojq@virtual-machine]# sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+    Executing: /tmp/tmp.Uskaff1gz8/gpg.1.sh --keyserver
+    hkp://p80.pool.sks-keyservers.net:80
+    --recv-keys
+    58118E89F3A912897C070ADBF76221572C52609D
+    gpg: 下载密钥‘2C52609D’，从 hkp 服务器 p80.pool.sks-keyservers.net
+    gpg: 密钥 2C52609D：公钥“Docker Release Tool (releasedocker) <docker@docker.com>”已导入
+    gpg: 合计被处理的数量：1
+    gpg: 已导入：1  (RSA: 1)
+
+更新APT软件包索引
+[zhaojq@virtual-machine]# sudo apt-get update
+
+安装Docker
+[zhaojq@virtual-machine]# sudo lsb_release --codename | cut -f2       
+xenial
+[zhaojq@virtual-machine]# sudo sh -c "echo deb https://apt.dockerproject.org/repo ubuntu-xenial main > /etc/apt/sources.list.d/docker.list"
+[zhaojq@virtual-machine]# cat /etc/apt/sources.list.d/docker.list
+deb https://apt.dockerproject.org/repo ubuntu-xenial main
+[zhaojq@virtual-machine]# sudo apt-get update 
+[zhaojq@virtual-machine]# sudo apt-get install docker-engine
+[zhaojq@virtual-machine]# sudo docker info
+Containers: 0
+ Running: 0
+ Paused: 0
+ Stopped: 0
+Images: 0
+Server Version: 1.11.2
+Storage Driver: aufs
+ Root Dir: /var/lib/docker/aufs
+ Backing Filesystem: extfs
+ Dirs: 0
+ Dirperm1 Supported: true
+Logging Driver: json-file
+Cgroup Driver: cgroupfs
+Plugins: 
+ Volume: local
+ Network: bridge null host
+Kernel Version: 4.4.0-24-generic
+Operating System: Ubuntu 16.04 LTS
+OSType: linux
+Architecture: x86_64
+CPUs: 1
+Total Memory: 1.945 GiB
+Name: ubuntu
+ID: RNVT:LTRE:MPOW:EU7F:X2GY:ZWWU:V7QD:KPKZ:KA2B:CF7O:OEBC:4YRA
+Docker Root Dir: /var/lib/docker
+Debug mode (client): false
+Debug mode (server): false
+Registry: https://index.docker.io/v1/
+WARNING: No swap limit support

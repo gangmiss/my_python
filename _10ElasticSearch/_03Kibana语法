@@ -1,0 +1,445 @@
+Elasticsearch采用乐观锁来保证数据一致性，即不需要对文档进行加锁或者解锁，只需指定要操作的版本即可，版本一致则可以执行，不一致则抛出异常
+1.创建索引
+    PUT lib        #创建一个lib索引
+    {
+      "settings":{       #索引配置
+        "index":{
+          "number_of_shards":5,          #五个分词
+          "number_of_replicas":0         #0个备份
+        }
+      }
+    }
+
+    GET /lib/_settings   #查看lib索引配置
+
+    GET _all/_settings   #查看所有索引配置
+
+2.添加文档
+    PUT /lib/user/1    #如果指定id了，就用put
+    {
+      "first_name":"Jane",
+      "last_name":"Smith",
+      "age":18,
+      "about":"I like to collect rock bumlbs",
+      "interests":"[music]"
+    }
+
+    POST /lib/user/    #如果没有制定id，就用POST
+    {
+      "first_name":"Jane",
+      "last_name":"Smith",
+      "age":18,
+      "about":"I like to collect rock bumlbs",
+      "interests":"[music]"
+    }
+
+
+3.查询文档
+    GET /lib/user/1  #查询文档
+
+    GET /lib/user/_search?q=about:like   lib索引user类型下查询about字段包含like的文档
+    GET /lib/user/_search?q=about:like&sort=age:desc
+    GET /lib/user/1?_source=age,about  #只查看age和about字段
+
+    1.查询多个文档：Multi Get API
+        GET /_mget
+        {
+          "docs":[
+            {
+              "_index":"lib",
+              "_type":"user",
+              "_id":1
+            },
+            {
+              "_index":"lib",
+              "_type":"user",
+              "_id":2,
+              "_source":"age"
+            },
+            {
+              "_index":"lib2",
+              "_type":"user",
+              "_id":2,
+              "_source":["age","about"]
+            }
+            ]
+        }
+
+        2.如果索引相同，类型相同，可以简写：
+        GET /lib/user/_mget
+        {
+          "docs":[
+            {
+              "_id":1
+            }
+            ,{
+              "_id":2,
+              "_source":["age","about"]
+            }
+            ]
+        }
+        或者
+        GET /lib/user/_mget
+        {
+          "ids":["1","2"]
+        }
+
+
+    2.批量操作API：Bulk
+    {action:{metadata}}\n
+    {requestbody}\n
+    action:行为：
+        1.create 文档不存在时创建，有文档时报错
+        2.update  更新文档
+        3.index   创建新文档或者修改已有文档
+        4.delete  删除文档
+    metadata：_index，_type，_id
+        1.{"delete":{"_index":"lib","_type":"user","_id":1}}
+
+        2.POST /lib/user/_bulk
+            {"index":{"_id":4}}
+            {"yy":"yy2","kk":"kk2"}
+            {"index":{"_id":5}}
+            {"yy":"yy3","kk":"kk3"}
+            {"index":{"_id":6}}
+            {"yy":"yy6","kk":"kk6"}
+
+        3.POST /lib/user/_bulk
+            {"delete":{"_id":"4"}}
+            {"update":{"_id":"5"}}
+            {"docs":{"yy":"yy555","kk":"kk555"}}
+            {"create":{"_id":"8"}}
+            {"yy":"yy8","kk":"kk8"}
+            {"index":{"_index":"lib2","_type":"books","_id":"9"}}
+            {"yy":"yy9","kk":"kk9","name":9}
+
+        4.term查询，没有分词,对like精确查找
+        GET /lib/user/_search
+        {
+          "query": {
+            "term": {
+              "about": "like"
+            }
+          }
+        }
+
+        GET /lib/user/_search
+        {
+          "from": 0,
+          "size": 2,
+          "version": true,
+          "query": {
+            "terms": {
+              "about": ["like"]
+            }
+          }
+        }
+
+        5.match查询，支持分词，对like或者me分词查找
+        GET /lib/user/_search
+        {
+          "from": 0,           #可以实现分页查询
+          "size": 2,
+          "version": true,
+          "query": {
+            "match": {
+              "about": "like me"
+            }
+          }
+        }
+
+        6.查询所有文档：
+        GET /lib/user/_search
+        {
+          "query": {
+            "match_all": {}
+          }
+        }
+
+        7.查询多个字段about或者last_name包含like的文档
+        GET /lib/user/_search
+        {
+          "query": {
+            "multi_match": {
+              "query": "like",
+              "fields": ["about","last_name"]
+            }
+          }
+        }
+
+        8.短语匹配：
+        GET /lib/user/_search
+        {
+          "query": {
+            "match_phrase": {
+              "about": "like to"
+            }
+          }
+        }
+
+        9.输出哪些字段，排除哪些字段
+        GET /lib/user/_search
+        {
+          "query": {
+            "match_all": {}
+          },
+          "_source": {
+            "include": ["about","*name"],   #也可以使用通配符
+            "exclude": ["interests","age"]
+          }
+        }
+
+        10.sort排序：
+        GET /lib/user/_search
+        {
+          "query": {
+            "match_all": {}
+          },
+          "sort": [
+            {
+              "age": {
+                "order": "desc"
+              }
+            }
+          ]
+        }
+
+        11.单词的前缀匹配：
+        GET /lib/user/_search
+        {
+          "query": {
+            "match_phrase_prefix": {
+              "about": "like"
+            }
+          }
+        }
+
+        12.范围查询：
+        GET /lib/user/_search
+        {
+          "query": {
+            "range": {
+              "age": {
+                "gte": 10,
+                "lte": 20
+              }
+            }
+          }
+        }
+
+        GET /lib/user/_search
+        {
+          "query": {
+            "range": {
+              "age": {
+                "from":10,
+                "to":18,
+                "include_lower":true,
+                "include_upper":true
+              }
+            }
+          }
+        }
+
+        13.通配符：*任意，?一个字符
+        GET /lib/user/_search
+        {
+          "query": {
+            "wildcard": {
+              "about": "*bu?mlbs"
+            }
+          }
+        }
+
+        14.模糊查询：fuzzy
+        GET /lib/user/_search
+        {
+          "query": {
+            "fuzzy": {
+              "about": "butmlbs"
+            }
+          }
+        }
+
+        15.高亮显示：
+        GET /lib/user/_search
+        {
+          "query": {
+            "match": {
+              "about": "like rock"
+            }
+          },
+          "highlight": {
+            "fields": {
+              "about": {}
+            }
+          }
+        }
+
+        16.过滤查询：
+        GET /lib/user/_search
+        {
+          "query": {
+            "bool": {
+              "filter": {
+                "term": {
+                  "age": "12"
+                }
+              }
+            }
+          }
+        }
+
+        GET /lib/user/_search
+        {
+          "query": {
+            "bool": {
+              "filter": {
+                "terms": {
+                  "age": ["12","23"]
+                }
+              }
+            }
+          }
+        }
+
+        17.bool查询，语法：must相当于and，should相当于or，must_not相当于not
+            {"bool":{"must":[],"should":[],"must_not":[]}}
+
+        GET /lib/user/_search
+        {
+          "query": {
+            "bool": {
+              "must": [
+                {"term": {
+                  "age": {
+                    "value": "23"
+                  }
+                }}
+              ],
+              "should": [
+                {
+                  "term": {
+                    "first_name": {
+                      "value": "Jane"
+                    }
+                  }
+                }
+              ],
+              "must_not": [
+                {
+                  "term": {
+                    "age": "12"
+                  }
+                }
+              ]
+            }
+          }
+        }
+
+        18.聚合查询：sum,min,max,avg,cardinality（求基数）,terms（分组）
+        GET /lib/user/_search
+        {
+          "aggs": {
+            "sum_of_age": {
+              "sum": {
+                "field": "age"
+              }
+            }
+          }
+        }
+        GET /lib/user/_search
+        {
+          "aggs": {
+            "sum_of_group": {
+              "terms": {
+                "field": "age"    #按年龄进行分组
+              }
+            }
+          }
+        }
+
+        19.复合查询：通过bool来联合多个查询条件，must,should,must_not,filter（对查询结果进行过滤）
+
+
+        20.多索引多类型查询
+            get /lib,lib2/user,books/_search
+            get /_all/user,books/_search
+            get /_all/*user/_search
+            get /lib,lib2/_search
+
+
+
+4.修改文档
+    1.通过id覆盖掉之前的数据
+    PUT /lib/user/1    #如果指定id了，就用put
+    {
+      "first_name":"Jack",
+      "last_name":"Smith",
+      "age":18,
+      "about":"I like to collect rock bumlbs",
+      "interests":"[music]"
+    }
+    2.通过POST  _update修改
+    POST /lib/user/1/_update
+    {
+      "doc":{
+        "age":36,
+        "last_name":"Gang"
+      }
+    }
+5.删除：
+1.删除文档：
+    DELETE /lib/user/1
+2.删除索引：
+    DELETE lib2
+
+
+
+6，通过版本号来保证数据一致性：（每次操作文档version都会加1）
+    DELETE /lib/user/4?version=4 #使用内部版本控制，version必须跟文档version一致（范围1-2^63-1）
+    DELETE /lib/user/4?retry_on_conflict=4 #使用内部版本控制，如果发现冲突，可以重新获取版本然后更新进去
+    DELETE /lib/user/4?version=4&version_type=external  #为了适应mysql数据库，使用外部版本控制属性，version必须大于文档version
+
+7.mapping：确定文档的每个字段的数据类型和是否分词
+    GET /lib/user/_mapping
+    核心数据类型：
+        字符型：string（支持分词），text（支持分词），keyword（不支持分词）
+        数字型：long,integer,short,byte,double,float （不支持分词）
+        日期：date（不支持分词）
+        布尔：boolean
+        二进制：binary
+    复杂数据类型：
+        数组：["aa","bb"]
+        整形数组：[1,2,3]
+        数组型数组：[1,[2,3]]
+        对象数据：[{"a":2}]
+        对象类型：{"a":2}
+        嵌套类型：{"a":{"b":3}}
+    地理位置类型：
+        地理坐标类型：_geo_point_ 经纬度坐标
+        地理形状类型：_geo_shape_ 地理形状类型
+    特定类型：
+        ipv4类型：_ip_    ip地址
+        附加类型：
+        插件类型：
+
+
+    2.手动创建mapping：
+    PUT /lib3
+    {
+      "settings": {
+        "number_of_shards": 5,
+        "number_of_replicas": 0
+      },
+      "mappings": {
+        "books":{
+          "properties": {
+            "title":{"type":"text","analyzer": "standard"},
+            "publish_date":{"type": "date","index": false},
+            "price":{"type": "double"},
+            "number":{"type": "integer"}
+          }
+        }
+      }
+    }
